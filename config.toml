@@ -1,0 +1,4 @@
+baseURL = "https://oneshotrpg.com/"
+languageCode = "en-us"
+title = "One Shot RPG"
+disableKinds = ["taxonomy","taxonomyTerm"]

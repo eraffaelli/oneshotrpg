@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "watch": "node-sass --watch --recursive --output static/css sass",
+    "build": "node-sass --output static/css sass",
+    "deploy": "node-sass --source-map true --output-style compressed --output public/css sass"
+  }
+}

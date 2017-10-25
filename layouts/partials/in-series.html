@@ -1,0 +1,26 @@
+{{ $thisPermalink := .RelPermalink }}
+{{ if isset .Params "series" }}
+  <aside class="series-callout">
+    <h3 class="h4">
+      Series:
+      {{ with .Site.GetPage "section" "blog" .Params.series }}<a href="{{ .RelPermalink }}" class="color-inherit">{{ .Title }}</a>{{ end }}
+    </h3>
+    <ol class="series-callout__list">
+      {{ range (where .Site.Pages "Params.series" .Params.series).ByParam "series_weight" }}
+        <li class="series-callout__list__item">
+          {{ if eq .RelPermalink $thisPermalink }}
+            <strong>
+          {{ else }}
+            <a href="{{ .RelPermalink }}">
+          {{ end }}
+            {{ .Title }}
+          {{ if eq .RelPermalink $thisPermalink }}
+            </strong>
+          {{ else }}
+            </a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  </aside>
+{{ end }}

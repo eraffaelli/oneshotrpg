@@ -1,0 +1,8 @@
+# Hugo specific files
+public
+
+# Assets
+node_modules
+
+# Internal deploy tools
+deploy.sh

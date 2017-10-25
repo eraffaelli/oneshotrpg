@@ -1,0 +1,53 @@
+{{ define "head" }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "author": {
+    "@type": "Organization",
+    "name": "One Shot RPG",
+    "url": "https://oneshotrpg.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "One Shot RPG",
+    "url": "https://oneshotrpg.com/"
+  },
+  "description": "{{- .Summary | plainify -}}",
+  "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",
+  "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"
+}
+</script>
+{{ end }}
+{{ define "main" }}
+  <article class="article container">
+    <section class="article__title__container">
+      <h1 class="article__title">{{ .Title }}</h1>
+    </section>
+    <div class="row">
+      <div class="col-lg-7">
+        <section class="article__content">
+          {{ .Content }}
+        </section>
+        {{ if .Next }}
+          <aside>
+            <p><span class="h5">Read the next article in the series: <a href="{{ .Next.RelPermalink }}">{{ .Next.Title }}</a>.</p>
+          </aside>
+        {{ end }}
+      </div>
+      <aside class="sidebar col-lg-5">
+        <aside class="font-italic">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
+
+        <aside class="d-none d-lg-block">{{ partial "table-of-contents.html" . }}</aside>
+
+        {{ partial "in-series.html" . }}
+
+      </aside>
+    </div>
+  </article>
+{{ end }}

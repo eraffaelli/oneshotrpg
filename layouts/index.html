@@ -1,0 +1,26 @@
+{{ define "above-main" }}
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">One Shot RPG</h1>
+      <h2 class="display-4">Single session tabletop roleplaying game adventures</h2>
+      <p>One Shot RPG is a line of short, accessible role playing game supplements in a sci-fi and horror setting. Players go on an adventure that's playable from start to finish in one night while selecting from a group of premade characters.</p>
+    </div>
+  </div>
+{{ end }}
+
+{{ define "main" }}
+  <div class="container">
+    <h3>Process Of Creating One Shot RPG</h3>
+    <p>The setting, characters, and first adventure are currently in development and the process is being documented.</p>
+    <div class="article-grid row">
+      {{ range first 4 (where .Site.Pages "Params.series" "creating-the-setting").Reverse }}
+        {{ partial "article-grid-item.html" . }}
+      {{ end }}
+    </div>
+    <p class="text-center">
+      <a href="/blog/creating-the-setting/">
+        <span class="h5">Read the full process of developing a role playing game setting.</span>
+      </a>
+    </p>
+  </div>
+{{ end }}

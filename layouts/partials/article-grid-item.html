@@ -1,0 +1,12 @@
+<article class="article-grid__article col-lg-6">
+  <h4 class="article-grid__title">
+    <a href="{{ .RelPermalink }}" class="color-inherit">
+      {{ .Title }}
+    </a>
+  </h4>
+  <p class="font-italic small">Posted on {{ .Date.Format "January 2, 2006" }}</p>
+
+  <p>{{ .Summary }}</p>
+
+  <p><a href="{{ .RelPermalink }}">Read Article</a></p>
+</article>

@@ -1,0 +1,6 @@
+/* TEAM */
+Your title: Little Feet On Ducks
+Site: https://lfodlfod.com/
+
+/* SITE */
+Software: Hugo, Atom

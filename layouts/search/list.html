@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+
+  <gcse:searchresults-only></gcse:searchresults-only>
+</div>
+{{ end }}
+{{ define "foot" }}
+<!-- Google Custom Search Engine (CSE) -->
+<script>
+  (function() {
+  var cx = '013311977872396214884:7dyoblbaamy';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+{{ end }}
