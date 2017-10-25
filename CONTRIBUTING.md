@@ -1,6 +1,6 @@
 # Contributing to the One Shot RPG site
 
-Please note that this project is released with a [Contributor Code of Conduct](https://github.com/oneshotrpg/oneshotrpg/blob/gh-pages/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/oneshotrpg/oneshotrpg/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## Stance Spelling and Grammar
 
