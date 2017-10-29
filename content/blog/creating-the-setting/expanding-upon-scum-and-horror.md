@@ -5,7 +5,7 @@ series: creating-the-setting
 weight: 7
 ---
 
-The world of One Shot RPG is filled with monsters. Cosmic horrors have invaded the solar system, threatening all. There’s a mysterious substance, scum, that has the ability to transform individuals into twisted beings. The player characters have decided to deal with the scummed, but their options aren't black and white.
+The world of One Shot RPG is filled with monsters. Cosmic horrors have invaded the solar system, threatening all. There’s a mysterious substance, scum, that has the ability to transform individuals into twisted beings. The player characters have decided to deal with the scummed, but their options aren't black and white.<!--more-->
 
 ## Adding More Lore
 New players shouldn’t have to know a lot of lore to be able to enjoy One Shot RPG. The additional information should be supplementary to the elevator pitch. Important elements should be communicated through gameplay elements and story beats, instead of through walls of text. But, the lore has to be fleshed out first before I can integrate story and gameplay.
@@ -43,4 +43,4 @@ The reason for casting the characters as scum fighters was [discussed while deve
 How the players will deal with a scummed monster will be one of the main pillars of the story and gameplay experience. The players could decide that the individual has caused so much damage that they must be put down. This would be the most straightforward, yet cruel, option. The players could decide that the scummed’s actions and methods are doing more good than harm, and leave them to their own devices. That type of story would be interesting if the characters had to work their way out of the monster’s grip first, then reasoned with and got to know the individual. Finally the players could try to “cure” the scummed individual and return them to a less dangerous state.
 
 ## Curing Scum
-How can a scummed be cured? I don’t know the answer yet, and it’s a topic I’ll explore in the next process article. My goal is that curing a scummed should never be the default option. It should have enough balanced benefits and drawbacks that the other options (killing the monster or leaving it be) are also valid decisions. As I’ve said before, every decision in One Shot RPG should have some shades of gray.
+How can a scummed be cured? I don’t know the answer yet, and it’s a topic I’ll explore in the [next process article](/blog/creating-the-setting/brainstorming-a-cure). My goal is that curing a scummed should never be the default option. It should have enough balanced benefits and drawbacks that the other options (killing the monster or leaving it be) are also valid decisions. As I’ve said before, every decision in One Shot RPG should have some shades of gray.
