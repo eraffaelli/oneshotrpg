@@ -43,7 +43,9 @@
       <aside class="sidebar col-lg-5">
         <aside class="font-italic">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
 
-        <aside class="d-none d-lg-block">{{ partial "table-of-contents.html" . }}</aside>
+        {{ if .TableOfContents }}
+          <aside class="d-none d-lg-block">{{ partial "table-of-contents.html" . }}</aside>
+        {{ end }}
 
         {{ partial "in-series.html" . }}
 
