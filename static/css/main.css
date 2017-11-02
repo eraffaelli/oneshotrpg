@@ -5958,3 +5958,6 @@ footer {
   background-color: #e9ecef;
   padding-top: 2em;
   padding-bottom: 2em; }
+
+.pagination-container {
+  margin-top: 1em; }

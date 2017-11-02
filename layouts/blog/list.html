@@ -5,19 +5,24 @@
 
     {{ .Content }}
 
+    {{ if gt (len .Sections) 0 }}
+    {{ $paginator := (.Paginate (where .Site.RegularPages "Section" "blog").Reverse) }}
+
     <div class="article-grid row">
-      {{ if gt (len .Sections) 0 }}
-        {{ range .Sections }}
-          {{ range .Pages.Reverse }}
-            {{ partial "article-grid-item.html" . }}
-          {{ end }}
-        {{ end }}
-      {{ else }}
+      {{ range $paginator.Pages }}
+        {{ partial "article-grid-item.html" . }}
+      {{ end }}
+    </div>
+
+    {{ partial "pagination.html" . }}
+
+    {{ else }}
+      <div class="article-grid row">
         {{ range .Pages.Reverse }}
           {{ partial "article-grid-item.html" . }}
         {{ end }}
-      {{ end }}
-    </div>
+      </div>
+    {{ end }}
   </div>
 
 {{ end }}

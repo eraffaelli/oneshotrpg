@@ -1,0 +1,6 @@
+{{ $pag := $.Paginator }}
+<nav class="text-center pagination-container">
+  {{ if $pag.HasNext }}
+    <a href="{{ $pag.Next.URL }}" class=" pagination-link"><span class="h5">More Articles</span></a>
+  {{ end }}
+</nav>
