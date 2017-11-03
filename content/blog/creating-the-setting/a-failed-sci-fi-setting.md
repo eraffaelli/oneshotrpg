@@ -10,7 +10,7 @@ The first sci-fi and horror narrative idea for running one shot adventures fails
 ## Elevator Pitch
 One of the [limitations outlined in the previous article](/blog/creating-the-setting/requirements-for-a-role-playing-game-setting/) mentions that potential customers should be able to understand what the setting is about after hearing a short elevator pitch. The elevator pitch I came up with is as follows:
 
- _“It’s a galaxy-spanning space opera. The characters hop from planet to planet with their large, warp-drive equipped space ships. Their adventures pit them against politics, technological marvels, and all sorts of alien races.”_
+ _It’s a galaxy-spanning space opera. The characters hop from planet to planet with their large, warp-drive equipped space ships. Their adventures pit them against politics, technological marvels, and all sorts of alien races._
 
 Now that the elevator pitch is defined, the setting can be tested against the limitations that were set earlier.
 
