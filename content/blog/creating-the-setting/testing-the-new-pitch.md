@@ -3,6 +3,7 @@ title: "Testing the New Pitch Against Requirements"
 date: "2017-10-23"
 series: creating-the-setting
 weight: 6
+nextWeight: 7
 ---
 
 By testing the new elevator pitch against the [stated requirements for a successful sci-fi and horror role playing game setting](/blog/creating-the-setting/requirements-for-a-role-playing-game-setting/), it can be declared a good or bad idea.<!--more-->

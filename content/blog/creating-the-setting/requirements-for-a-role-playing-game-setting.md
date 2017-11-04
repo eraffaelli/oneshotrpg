@@ -3,6 +3,7 @@ title: "Requirements For a Role Playing Game Setting"
 date: "2017-10-17"
 series: creating-the-setting
 weight: 3
+nextWeight: 4
 ---
 
 Limitations breed creativity. When creating a setting for a tabletop role playing game it’s important to set requirements to provide focus and clarity. For One Shot RPG, the gameplay requirements involve accessibility, the ability to create characters, story hooks, and diversity. Business goals relate to audience, reach, jargon, and intellectual property. Finally the tone requirements deal with seriousness, gray areas, and small scale problems. Once these limitations are defined they can be applied to actually developing the setting.<!--more-->

@@ -34,10 +34,17 @@
         <section class="article__content">
           {{ .Content }}
         </section>
-        {{ if .Next }}
-          <aside>
-            <p><span class="h5">Read the next article in the series: <a href="{{ .Next.RelPermalink }}">{{ .Next.Title }}</a>.</p>
-          </aside>
+
+        {{/* I would use (add .Weight 1) instead of .Params.nextWeight, but the MATCH argument of where doesn't evaluate functions or variables. "where .Site.Pages "Params.weight" (add .Weight 1)" does not work. */}}
+        {{ $inNextWeight := where .Site.Pages "Params.weight" .Params.nextWeight }}
+        {{ $inSeries := where .Site.Pages "Params.series" .Params.series }}
+        {{ $nextArticles := $inNextWeight | intersect $inSeries }}
+        {{ if $nextArticles }}
+          {{ range first 1 $nextArticles }}
+            <aside>
+              <p><span class="h5">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+            </aside>
+          {{ end }}
         {{ end }}
       </div>
       <aside class="sidebar col-lg-5">

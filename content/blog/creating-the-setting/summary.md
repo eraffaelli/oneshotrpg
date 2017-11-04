@@ -3,6 +3,7 @@ title: "Series Summary"
 date: "2017-11-03"
 series: creating-the-setting
 weight: 12
+nextWeight: 13
 ---
 
 The process of creating a setting for One Shot RPG started by defining goals and ended with a fully developed elevator pitch. In between, the unique sci-fi and horror roleplaying game setting started to take shape.<!--more-->
@@ -35,4 +36,4 @@ Next, [justifications for creating new tabletop RPG supplements were defined](/b
 
 ## Moving On
 
-Now that the narrative has been designed, the cast of playable characters can start to be planned out.
+Now that the narrative has been designed, the [cast of playable characters can start to be planned out](/blog/creating-the-characters/gameplay-and-narrative-goals/).

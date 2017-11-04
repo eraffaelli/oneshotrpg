@@ -3,6 +3,7 @@ title: "The Planets and Races"
 date: "2017-10-31"
 series: creating-the-setting
 weight: 10
+nextWeight: 11
 ---
 
 The planets inside the asteroid belt have the same names as the ones in our solar system. But in One Shot RPG they’re quite different. Each is home to a different alien species, and each features its own array of flora and fauna. There’s also a mysterious fourth alien race that may hold the secret to Pluto.<!--more-->

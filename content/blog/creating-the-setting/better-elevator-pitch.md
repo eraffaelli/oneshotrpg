@@ -3,6 +3,7 @@ title: "Developing a Better Elevator Pitch"
 date: "2017-10-22"
 series: creating-the-setting
 weight: 5
+nextWeight: 6
 ---
 
 A better role playing game setting can be developed by examining why the [previous elevator pitch](/blog/creating-the-setting/a-failed-sci-fi-setting/) failed to meet the requirements for success.<!--more-->

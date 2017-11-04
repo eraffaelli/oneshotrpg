@@ -3,6 +3,7 @@ title: "Justification for One Shot RPG"
 date: "2017-10-15"
 series: creating-the-setting
 weight: 2
+nextWeight: 3
 ---
 
 By focusing on short, character driven, premade adventures, One Shot RPG is designed to solve the problems facing the average tabletop role player. The issues they experience relate to time commitments and getting a consistent gaming group together. One Shot RPG must respect their time, quickly get them into the game, and be easy to run, even if everyone can’t show for the night.<!--more-->

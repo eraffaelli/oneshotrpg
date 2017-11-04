@@ -3,6 +3,7 @@ title: "Refining the Elevator Pitch"
 date: "2017-11-02"
 series: creating-the-setting
 weight: 11
+nextWeight: 12
 ---
 
 [The previous elevator pitch](/blog/creating-the-setting/better-elevator-pitch/) needs some refinement and wording changes. Because it is the entry point for new customers into the tabletop RPG setting, the pitch will go through many tweaks throughout the creation of the product.<!--more-->
