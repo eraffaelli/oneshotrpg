@@ -12,7 +12,7 @@
   <div class="container">
     <div>
       <h3>Creating the Cast of Characters</h3>
-      <p>Read about the decisions and planning that goes into creating a cast of sci-fi and horror RPG characters.</p>
+      <p>Read about the decisions and planning that go into creating a cast of sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
         {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
           {{ partial "article-grid-item.html" . }}
