@@ -5,7 +5,7 @@ series: creating-the-setting
 weight: 12
 ---
 
-The process of creating a setting for One Shot RPG started by defining goals and ended with a fully developed elevator pitch. In between, the unique sci-fi and horror roleplaying game setting started to take shape.
+The process of creating a setting for One Shot RPG started by defining goals and ended with a fully developed elevator pitch. In between, the unique sci-fi and horror roleplaying game setting started to take shape.<!--more-->
 
 ## Elevator Pitch
 
