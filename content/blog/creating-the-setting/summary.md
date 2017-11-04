@@ -1,5 +1,5 @@
 ---
-title: "Series Summary"
+title: "Creating the Setting Series Summary"
 date: "2017-11-03"
 series: creating-the-setting
 weight: 12
