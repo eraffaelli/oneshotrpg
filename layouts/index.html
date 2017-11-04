@@ -10,17 +10,34 @@
 
 {{ define "main" }}
   <div class="container">
-    <h3>Process Of Creating One Shot RPG</h3>
-    <p>The setting, characters, and first adventure are currently in development and the process is being documented.</p>
-    <div class="article-grid row">
-      {{ range first 4 (where .Site.Pages "Params.series" "creating-the-setting").Reverse }}
-        {{ partial "article-grid-item.html" . }}
-      {{ end }}
+    <div>
+      <h3>Creating the Cast of Characters</h3>
+      <p>Read about the decisions and planning that goes into creating a cast of sci-fi and horror RPG characters.</p>
+      <div class="article-grid row">
+        {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
+          {{ partial "article-grid-item.html" . }}
+        {{ end }}
+      </div>
+      <p class="text-center">
+        <a href="/blog/creating-the-characters/">
+          <span class="h5">Read all the articles about creating characters.</span>
+        </a>
+      </p>
     </div>
-    <p class="text-center">
-      <a href="/blog/creating-the-setting/">
-        <span class="h5">Read the full process of developing a role playing game setting.</span>
-      </a>
-    </p>
+
+    <div class="mt-5">
+      <h3>Creating the Setting</h3>
+      <p>Want to know the behind the scenes details on how sci-fi and horror game setting was created?</p>
+      <div class="article-grid row">
+        {{ range first 4 (where .Site.Pages "Params.series" "creating-the-setting").Reverse }}
+          {{ partial "article-grid-item.html" . }}
+        {{ end }}
+      </div>
+      <p class="text-center">
+        <a href="/blog/creating-the-setting/">
+          <span class="h5">Read the full process of developing a role playing game setting.</span>
+        </a>
+      </p>
+    </div>
   </div>
 {{ end }}
