@@ -32,7 +32,7 @@ The goal for this brainstorm is to _establish a cure for a scummed individual th
 - Absorb the scum into yourself. Over time the player characters get corrupted and go insane
 - Scoop/vacuum/collect the scum and store it as a physical object, perhaps as weaponry. Keeping large amounts of scum is volatile and causes unpredictable results
 
-I stopped after writing down these three ideas. The previous article mentions that the [existence of scum is theoretical and it can’t be detected](/blog/creating-the-setting/expanding-upon-scum-and-horror/). These ideas go against that fact because they turn scum into an object that can be controlled and kept. Being able to control and keep scum would prove that it's real, and the substance would lose a lot of its mystery.
+I stopped after writing down these three ideas. The previous article mentions that the [existence of scum is theoretical and it can’t be detected](/blog/creating-the-setting/expanding-upon-scum-and-horror/#scum). These ideas go against that fact because they turn scum into an object that can be controlled and kept. Being able to control and keep scum would prove that it's real, and the substance would lose a lot of its mystery.
 
 I had to add to the goal of the brainstorm: _while keeping scum theoretical and undetectable._
 
@@ -46,7 +46,7 @@ I had to add to the goal of the brainstorm: _while keeping scum theoretical and 
 I felt after this round I had enough ideas to start working through them.
 
 ### Letting Them Win
-I think that letting the monsters win to cure them is an interesting way of resolving the situation. Imagine the [parent example](/blog/creating-the-setting/expanding-upon-scum-and-horror/) mentioned in the previous article. What if the players sympathize with the monster and bring them an actual predator to exact justice on? Sacrificing one life to save another would be the very definition of a morally gray choice.
+I think that letting the monsters win to cure them is an interesting way of resolving the situation. Imagine the [parent example](/blog/creating-the-setting/expanding-upon-scum-and-horror/#example-of-a-scummed-individual) mentioned in the previous article. What if the players sympathize with the monster and bring them an actual predator to exact justice on? Sacrificing one life to save another would be the very definition of a morally gray choice.
 
 ### Get Them To Admit Guilt
 I felt this would lead to sappy scenarios where players shout “Monster, repent!” while trying to get the monster to admit they are in the wrong. I’m not a fan of this idea.
