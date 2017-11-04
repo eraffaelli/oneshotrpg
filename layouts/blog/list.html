@@ -6,7 +6,7 @@
     {{ .Content }}
 
     {{ if gt (len .Sections) 0 }}
-    {{ $paginator := (.Paginate (where .Site.RegularPages "Section" "blog").Reverse) }}
+    {{ $paginator := (.Paginate (where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
 
     <div class="article-grid row">
       {{ range $paginator.Pages }}
