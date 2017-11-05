@@ -44,4 +44,4 @@ Player characters should be varied, but they should all fit in with each other a
 
 As a player, differing backgrounds, species, personalities, and motivations can also make each character feel fresh. If a player chose a character who was an _[animal person](/blog/creating-the-setting/planets-and-races/#venus)_ scientist trying to research and prove the existence of scum in their first one shot adventure, they would have a unique experience if they chose a human character who was trying to profit off of scum for their next adventure. Keeping the adventures and characters fresh increases customer retention and incentivizes players to come back and play more one shots.
 
-Gameplay and narrative are only two aspects to consider when creating characters for the sci-fi and horror one shots. The next article will go over visual and diversity goals.
+Gameplay and narrative are only two aspects to consider when creating characters for the sci-fi and horror one shots. The next article will go over diversity goals.
