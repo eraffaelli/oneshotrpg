@@ -11,7 +11,7 @@
 {{ define "main" }}
   <div class="container">
     <div>
-      <h3>How to Create Characters</h3>
+      <h2>How to Create Characters</h2>
       <p>Read about the decisions and planning that go into creating a cast of sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
         {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
@@ -20,13 +20,13 @@
       </div>
       <p class="text-center">
         <a href="/blog/creating-the-characters/">
-          <span class="h5">Read all the articles about creating characters.</span>
+          <span class="h4">Read all the articles about creating characters.</span>
         </a>
       </p>
     </div>
 
     <div class="mt-5">
-      <h3>How to Create a Sci-Fi and Horror Setting</h3>
+      <h2>How to Create a Sci-Fi and Horror Setting</h2>
       <p>Want to know the behind the scenes details on how sci-fi and horror game setting was created?</p>
       <div class="article-grid row">
         {{ range first 4 (where .Site.Pages "Params.series" "creating-the-setting").Reverse }}
@@ -35,7 +35,7 @@
       </div>
       <p class="text-center">
         <a href="/blog/creating-the-setting/">
-          <span class="h5">Read the full process of developing a role playing game setting.</span>
+          <span class="h4">Read the full process of developing a role playing game setting.</span>
         </a>
       </p>
     </div>

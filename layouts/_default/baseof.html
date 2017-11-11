@@ -28,9 +28,9 @@
     <body>
 
       <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark d-block d-md-flex flex-md-wrap">
           <a class="navbar-brand" href="/">One Shot RPG</a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="/">Home</a>
             </li>
@@ -41,9 +41,9 @@
               <a class="nav-link" href="/blog/creating-the-characters/">Creating the Characters</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0" action="/search/" method="GET">
+          <form class="form-inline my-2 flex-nowrap" action="/search/" method="GET">
             <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" name="q">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-light ml-2 ml-md-0" type="submit">Search</button>
           </form>
         </nav>
       </header>
@@ -52,13 +52,13 @@
         <!-- The part of the page that begins to differ between templates -->
       {{ end }}
 
-      <main>
+      <main class="mt-4 mt-md-5">
         {{ block "main" . }}
           <!-- The part of the page that begins to differ between templates -->
         {{ end }}
       </main>
 
-      <footer>
+      <footer class="mt-5 py-5">
         <div class="container">
           &copy;2017 One Shot RPG/<a href="https://lfodlfod.com/">Little Feet On Ducks</a>.<br>
           <span class="small">The content of this site is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>

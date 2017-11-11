@@ -42,7 +42,7 @@
         {{ if $nextArticles }}
           {{ range first 1 $nextArticles }}
             <aside>
-              <p><span class="h5">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+              <p><span class="h4">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
             </aside>
           {{ end }}
         {{ end }}
