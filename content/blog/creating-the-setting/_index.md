@@ -1,5 +1,5 @@
 ---
-title: "Creating The Setting"
+title: "How to Create A Sci-Fi and Horror Setting"
 meta_description: "Read the behind the scenes process of creating a sci-fi and horror RPG game setting."
 ---
 

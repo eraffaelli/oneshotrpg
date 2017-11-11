@@ -1,5 +1,5 @@
 ---
-title: "Creating The Characters"
+title: "How to Create Characters"
 meta_description: "Read the thoughts and planning that go behind creating a cast of sci-fi and horror RPG characters."
 ---
 
