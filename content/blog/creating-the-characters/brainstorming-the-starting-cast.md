@@ -123,4 +123,4 @@ Large, hulking member of the fourth alien species.
 ### Rogue AI Robot
 Was once an AI for some to be defined purpose. Now it has gained free will and is wandering the solar system.
 
-While elaborating on these character ideas, I’ve come to a realization that I need to make some more decisions about the world and setting. I need to expand upon the alien species, such as what they look like and their abilities. There’s the issue of robots, androids, body modifications, and how the Internet plays into it. I also haven’t decided about weaponry. The next article will focus on making these decisions.
+While elaborating on these character ideas, I’ve come to a realization that I need to make some more decisions about the world and setting. I need to expand upon the alien species, such as what they look like and their abilities. There’s the issue of robots, androids, body modifications, and how the Internet plays into it. I also haven’t decided about weaponry. The next articles will focus on making these decisions.
