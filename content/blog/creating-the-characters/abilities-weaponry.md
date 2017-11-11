@@ -1,5 +1,5 @@
 ---
-title: "Sci-Fi Abilities and Weaponry"
+title: "Sci-Fi Character Abilities and Weaponry"
 date: "2017-11-11"
 series: creating-the-characters
 weight: 5

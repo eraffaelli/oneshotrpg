@@ -1,5 +1,5 @@
 ---
-title: "Visual Goals for Characters"
+title: "Visual Goals for RPG Characters"
 date: "2017-11-06"
 series: creating-the-characters
 weight: 3

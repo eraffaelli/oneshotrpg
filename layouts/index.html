@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="display-3">One Shot RPG</h1>
       <h2 class="display-4">Short Sci-Fi and Horror RPG Adventures</h2>
-      <p>One Shot RPG is a line of short role playing game adventures set in a sci-fi and horror setting. Players choose from premade characters to confront the monster of the week. Each adventure is playable from start to finish in a single game night.</p>
+      <p>One Shot RPG is a line of short role playing game adventures set in a sci-fi and horror setting. Players choose from premade characters to confront the monster of the week. Each adventure is playable from start to finish in a single game night. The setting, characters, and first adventure are currently in development.</p>
     </div>
   </div>
 {{ end }}
@@ -11,7 +11,7 @@
 {{ define "main" }}
   <div class="container">
     <div>
-      <h2>How to Create Characters</h2>
+      <h2>How to Create RPG Characters</h2>
       <p>Read about the decisions and planning that go into creating a cast of sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
         {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
@@ -20,7 +20,7 @@
       </div>
       <p class="text-center">
         <a href="/blog/creating-the-characters/">
-          <span class="h4">Read all the articles about creating characters.</span>
+          <span class="h4">Read all the articles about creating RPG characters.</span>
         </a>
       </p>
     </div>

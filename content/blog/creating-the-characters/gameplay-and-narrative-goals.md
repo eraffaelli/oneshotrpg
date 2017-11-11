@@ -1,5 +1,5 @@
 ---
-title: "Gameplay and Narrative Goals for Characters"
+title: "Gameplay and Narrative Goals for RPG Characters"
 date: "2017-11-04"
 series: creating-the-characters
 weight: 1
