@@ -82,7 +82,7 @@ What would a sci-fi assassin character look like? Invisibility cloaks? Clothes t
 Character who uses a giant chainsaw as a weapon. This would be a strong class fantasy. The character would need a lot of further development as the prompt mentions nothing about personality.
 
 ### Riot Police Officer
-In the largest incident to date involving a scummed, the monster persuaded a group of people to riot. It was a very ugly scene with casualties on both sides and many injuries. This officer questioned what the motivations the mob had and eventually discovered the scummed behind it.
+In the largest incident to date involving a scummed, the monster persuaded a group of people to riot. It was a very ugly scene with casualties on both sides and many injuries. This officer questioned the mob's motivations and eventually discovered the scummed behind it.
 
 ### Electricity Controller / Zapper
 Uses machines and implants to control the flow of electricity, shocking the enemy. This concept is on the more “science fantasy” side of sci-fi.
