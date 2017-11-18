@@ -18,7 +18,7 @@
     "name": "One Shot RPG",
     "url": "https://oneshotrpg.com/"
   },
-  "description": "{{- .Summary | plainify -}}",
+  "description": "{{ trim (.Summary | plainify) "\n" }}",
   "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",
   "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"
 }
