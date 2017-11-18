@@ -64,7 +64,7 @@ A strong female leader who lost their unit. Now she’s trying to figure out wha
 Uses special chemicals, sounds, and devices to control swarms of insects. Would also make an interesting concept for a scummed. Imagine a swarm of flesh-eating insects reducing a target to a skeleton.
 
 ### Cured Scum
-A person who was cured of scum. I don’t think this concept is going be chosen, it doesn't feel right to create a playable character like this so early in the franchise.
+A person who was cured of scum. I don’t think this concept is going be chosen; it doesn't feel right to create a playable character like this so early in the franchise.
 
 ### Priest / Crusader
 An interesting topic to discuss is what religion looks like [300 years into our future](/blog/creating-the-setting/technology-and-the-military/#timeframe). Is organized religion a thing? I’ve been mentioning that [scum fighters are labeled as heretics](/blog/creating-the-setting/better-elevator-pitch/#giving-the-characters-reason). Will the concept of religion, zealotry, and heresy make it into the final product?
@@ -82,7 +82,7 @@ What would a sci-fi assassin character look like? Invisibility cloaks? Clothes t
 Character who uses a giant chainsaw as a weapon. This would be a strong class fantasy. The character would need a lot of further development as the prompt mentions nothing about personality.
 
 ### Riot Police Officer
-In the largest incident to date involving a scummed, the monster persuaded a group of people to riot. It was a very ugly scene with casualties on both sides and many injuries. This officer questioned what the motivations the mob had and eventually discovered the scummed behind it.
+In the largest incident to date involving a scummed, the monster persuaded a group of people to riot. It was a very ugly scene with casualties on both sides and many injuries. This officer questioned the mob's motivations and eventually discovered the scummed behind it.
 
 ### Electricity Controller / Zapper
 Uses machines and implants to control the flow of electricity, shocking the enemy. This concept is on the more “science fantasy” side of sci-fi.
