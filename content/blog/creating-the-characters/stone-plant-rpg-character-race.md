@@ -1,5 +1,5 @@
 ---
-title: "Stone and Plant RPG Character Race"
+title: "Stone and Plant People RPG Character Race"
 date: "2017-11-19"
 series: creating-the-characters
 weight: 9
