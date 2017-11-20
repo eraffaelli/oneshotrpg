@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "One Shot RPG"
 disableKinds = ["taxonomy","taxonomyTerm"]
 Paginate = 12
+staticDir = ["static", "static_images"]
