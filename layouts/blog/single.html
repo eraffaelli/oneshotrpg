@@ -15,6 +15,12 @@
   {{ partial "structured-data/organization-logo-object.html" . }}
   },
   "description": "{{ trim (.Summary | plainify) "\n" }}",
+  {{ if .Params.image }}
+  "image": [
+    "{{ "/" | absURL }}img/half/{{ .Params.image }}",
+    "{{ "/" | absURL }}img/full/{{ .Params.image }}"
+  ],
+  {{ end }}
   "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",
   "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"
 }
@@ -40,7 +46,7 @@
                 alt="{{ .Title }}" />
             </figure>
           {{ end }}
-          
+
           {{ .Content }}
         </section>
 
