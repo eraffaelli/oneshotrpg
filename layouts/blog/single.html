@@ -9,22 +9,10 @@
   },
   "headline": "{{ .Title }}",
   "author": {
-    "@type": "Organization",
-    "name": "One Shot RPG",
-    "url": "https://oneshotrpg.com/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ "/img/full/logo.png" | absURL }}"
-    }
+  {{ partial "structured-data/organization.html" . }}
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "One Shot RPG",
-    "url": "https://oneshotrpg.com/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ "/img/full/logo.png" | absURL }}"
-    }
+  {{ partial "structured-data/organization-logo-object.html" . }}
   },
   "description": "{{ trim (.Summary | plainify) "\n" }}",
   "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",

@@ -1,3 +1,27 @@
+{{ define "head" }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "sameAs": [
+    "https://github.com/oneshotrpg"
+  ],
+  {{ partial "structured-data/organization.html" . }}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ "/" | absURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ "/search/" | absURL }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+
 {{ define "above-main" }}
   <div class="jumbotron">
     <div class="container">
