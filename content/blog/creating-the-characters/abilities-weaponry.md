@@ -2,6 +2,7 @@
 title: "Sci-Fi Character Abilities and Weaponry"
 date: "2017-11-11"
 series: creating-the-characters
+image: creating-characters-placeholder.png
 weight: 5
 nextWeight: 6
 ---

@@ -2,6 +2,7 @@
 title: "Visual Goals for RPG Characters"
 date: "2017-11-06"
 series: creating-the-characters
+image: creating-characters-placeholder.png
 weight: 3
 nextWeight: 4
 ---

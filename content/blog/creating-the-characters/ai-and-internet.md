@@ -2,6 +2,7 @@
 title: "AI and Internet Connected Characters"
 date: "2017-11-12"
 series: creating-the-characters
+image: creating-characters-placeholder.png
 weight: 6
 nextWeight: 7
 ---

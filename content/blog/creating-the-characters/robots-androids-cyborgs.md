@@ -2,6 +2,7 @@
 title: "Robots, Androids, and Cyborg RPG Characters"
 date: "2017-11-13"
 series: creating-the-characters
+image: creating-characters-placeholder.png
 weight: 7
 nextWeight: 8
 ---

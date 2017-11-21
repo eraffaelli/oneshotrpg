@@ -2,6 +2,7 @@
 title: "Brainstorming the Starting Cast of Characters"
 date: "2017-11-09"
 series: creating-the-characters
+image: creating-characters-placeholder.png
 weight: 4
 nextWeight: 5
 ---
