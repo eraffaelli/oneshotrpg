@@ -2,6 +2,7 @@
 title: "The Planets and Races"
 date: "2017-10-31"
 series: creating-the-setting
+image: creating-setting-10.png
 weight: 10
 nextWeight: 11
 ---

@@ -2,6 +2,7 @@
 title: "Expanding Upon Scum and Horror"
 date: "2017-10-28"
 series: creating-the-setting
+image: creating-setting-7.png
 weight: 7
 nextWeight: 8
 ---

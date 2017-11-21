@@ -2,6 +2,7 @@
 title: "Developing a Better Elevator Pitch"
 date: "2017-10-22"
 series: creating-the-setting
+image: creating-setting-5.png
 weight: 5
 nextWeight: 6
 ---

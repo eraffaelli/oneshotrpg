@@ -2,6 +2,7 @@
 title: "Personal Goals for Creating an RPG Product"
 date: "2017-10-14"
 series: creating-the-setting
+image: creating-setting-1.png
 weight: 1
 nextWeight: 2
 ---

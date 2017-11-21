@@ -2,6 +2,7 @@
 title: "Brainstorming a Cure For Scum"
 date: "2017-10-29"
 series: creating-the-setting
+image: creating-setting-8.png
 weight: 8
 nextWeight: 9
 ---

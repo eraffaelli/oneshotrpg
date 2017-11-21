@@ -2,6 +2,7 @@
 title: "Technology and the Military"
 date: "2017-10-30"
 series: creating-the-setting
+image: creating-setting-9.png
 weight: 9
 nextWeight: 10
 ---

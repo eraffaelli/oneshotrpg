@@ -2,6 +2,7 @@
 title: "Refining the Elevator Pitch"
 date: "2017-11-02"
 series: creating-the-setting
+image: creating-setting-11.png
 weight: 11
 nextWeight: 12
 ---

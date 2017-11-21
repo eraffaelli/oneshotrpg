@@ -2,6 +2,7 @@
 title: "Justification for One Shot RPG"
 date: "2017-10-15"
 series: creating-the-setting
+image: creating-setting-2.png
 weight: 2
 nextWeight: 3
 ---

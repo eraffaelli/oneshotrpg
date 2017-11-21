@@ -2,6 +2,7 @@
 title: "A Failed Sci-Fi and Horror Setting"
 date: "2017-10-21"
 series: creating-the-setting
+image: creating-setting-4.png
 weight: 4
 nextWeight: 5
 ---

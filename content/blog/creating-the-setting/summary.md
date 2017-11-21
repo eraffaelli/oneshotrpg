@@ -2,6 +2,7 @@
 title: "Summary of How to Create a Sci-Fi and Horror Setting"
 date: "2017-11-03"
 series: creating-the-setting
+image: creating-setting-12.png
 weight: 12
 nextWeight: 13
 ---

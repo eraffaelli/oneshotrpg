@@ -2,6 +2,7 @@
 title: "Requirements For a Role Playing Game Setting"
 date: "2017-10-17"
 series: creating-the-setting
+image: creating-setting-3.png
 weight: 3
 nextWeight: 4
 ---

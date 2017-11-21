@@ -2,6 +2,7 @@
 title: "Testing the New Pitch Against Requirements"
 date: "2017-10-23"
 series: creating-the-setting
+image: creating-setting-6.png
 weight: 6
 nextWeight: 7
 ---
