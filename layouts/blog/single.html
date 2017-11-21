@@ -1,4 +1,12 @@
 {{ define "head" }}
+<meta property="og:url"                content="{{ .Permalink }}" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="{{ .Title }}" />
+<meta property="og:description"        content="{{ trim (.Summary | plainify) "\n" }}" />
+{{ if .Params.image }}
+<meta property="og:image"              content="{{ "/" | absURL }}img/full/{{ .Params.image }}" />
+{{ end }}
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
