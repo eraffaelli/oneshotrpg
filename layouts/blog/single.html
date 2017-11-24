@@ -45,7 +45,7 @@
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "{{ "/blog" | absURL }}",
+        "@id": "{{ "/blog/" | absURL }}",
         "name": "Blog"
       }
     },
@@ -70,7 +70,7 @@
         <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
           <ol class="breadcrumb small">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+            <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
             {{ if isset .Params "series" }}
               {{ with .Site.GetPage "section" "blog" .Params.series }}
                 <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
