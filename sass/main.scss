@@ -68,11 +68,6 @@ a.color-inherit {
 
 .article__title__container {
 }
-@include media-breakpoint-up(lg) {
-  .article__title__container {
-    margin-bottom: map-get($spacers, 4);
-  }
-}
 
 .article-grid {
   margin-top: map-get($spacers, 4);
@@ -110,6 +105,26 @@ a.color-inherit {
   .sidebar {
     > * {
       margin-bottom: map-get($spacers, 4);
+    }
+  }
+}
+
+.page-title {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: map-get($spacers, 5);
+  }
+}
+.page-title__breadcrumbs {
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+
+    @include media-breakpoint-down(md) {
+      padding-right: .25rem;
+      padding-left: .25rem;
     }
   }
 }

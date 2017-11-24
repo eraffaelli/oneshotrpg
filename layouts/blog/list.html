@@ -1,7 +1,17 @@
 {{ define "main" }}
 
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <div class="page-title">
+      <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb small">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          {{ if eq (len .Sections) 0 }}
+            <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+          {{ end }}
+        </ol>
+      </nav>
+      <h1 class="page-title__title">{{ .Title }}</h1>
+    </div>
 
     {{ .Content }}
 

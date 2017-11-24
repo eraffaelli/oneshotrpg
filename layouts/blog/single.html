@@ -39,7 +39,20 @@
 {{ define "main" }}
   <article class="article container">
     <section class="article__title__container">
-      <h1 class="article__title">{{ .Title }}</h1>
+      <div class="page-title">
+        <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+          <ol class="breadcrumb small">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+            {{ if isset .Params "series" }}
+              {{ with .Site.GetPage "section" "blog" .Params.series }}
+                <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ end }}
+          </ol>
+        </nav>
+        <h1 class="page-title__title article__title">{{ .Title }}</h1>
+      </div>
     </section>
     <div class="row">
       <div class="col-lg-7">
