@@ -35,6 +35,33 @@
   "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "{{ "/blog" | absURL }}",
+        "name": "Blog"
+      }
+    },
+    {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      {{ with .Site.GetPage "section" "blog" .Params.series }}
+        "@id": "{{ .Permalink }}",
+        "name": "{{ .Title }}"
+      {{ end }}
+      }
+    }
+  ]
+}
+</script>
 {{ end }}
 {{ define "main" }}
   <article class="article container">
