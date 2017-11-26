@@ -2,7 +2,7 @@
 title: "Naming the RPG Races"
 date: "2017-11-20"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-12.png
 weight: 12
 nextWeight: 13
 ---

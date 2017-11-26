@@ -2,7 +2,7 @@
 title: "The Flamethrower Premade RPG Character Prompt"
 date: "2017-11-25"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-17.png
 weight: 17
 nextWeight: 18
 ---

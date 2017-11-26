@@ -2,7 +2,7 @@
 title: "The Corporate R&D Premade RPG Character Prompt"
 date: "2017-11-25"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-18.png
 weight: 18
 nextWeight: 19
 ---

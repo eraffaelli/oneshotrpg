@@ -2,7 +2,7 @@
 title: "Animal People RPG Character Race"
 date: "2017-11-19"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-10.png
 weight: 10
 nextWeight: 11
 ---

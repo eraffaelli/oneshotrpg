@@ -2,7 +2,7 @@
 title: "Stone and Plant People RPG Character Race"
 date: "2017-11-19"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-9.png
 weight: 9
 nextWeight: 10
 ---

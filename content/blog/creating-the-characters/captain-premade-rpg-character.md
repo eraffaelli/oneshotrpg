@@ -2,7 +2,7 @@
 title: "The Fallen Captain Premade RPG Character Prompt"
 date: "2017-11-24"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-16.png
 weight: 16
 nextWeight: 17
 ---

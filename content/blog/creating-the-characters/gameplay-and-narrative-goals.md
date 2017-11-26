@@ -2,7 +2,7 @@
 title: "Gameplay and Narrative Goals for RPG Characters"
 date: "2017-11-04"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-1.png
 weight: 1
 nextWeight: 2
 ---

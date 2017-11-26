@@ -2,7 +2,7 @@
 title: "Diversity Goals for RPG Characters"
 date: "2017-11-05"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-2.png
 weight: 2
 nextWeight: 3
 ---

@@ -2,7 +2,7 @@
 title: "Metal People RPG Character Race"
 date: "2017-11-20"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-11.png
 weight: 11
 nextWeight: 12
 ---

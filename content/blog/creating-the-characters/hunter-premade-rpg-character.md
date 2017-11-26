@@ -2,7 +2,7 @@
 title: "The Hunter Premade RPG Character Prompt"
 date: "2017-11-24"
 series: creating-the-characters
-image: placeholder-blog-image.png
+image: creating-characters-15.png
 weight: 15
 nextWeight: 16
 ---
