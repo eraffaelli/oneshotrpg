@@ -2,7 +2,7 @@
 title: "Selecting Premade RPG Characters"
 date: "2017-11-21"
 series: creating-the-characters
-image: creating-characters-placeholder.png
+image: placeholder-blog-image.png
 weight: 13
 nextWeight: 14
 ---

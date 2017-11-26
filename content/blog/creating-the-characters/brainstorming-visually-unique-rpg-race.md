@@ -2,7 +2,7 @@
 title: "Brainstorming a Visually Unique RPG Race"
 date: "2017-11-18"
 series: creating-the-characters
-image: creating-characters-placeholder.png
+image: placeholder-blog-image.png
 weight: 8
 nextWeight: 9
 ---

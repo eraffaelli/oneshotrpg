@@ -2,7 +2,7 @@
 title: "The Heavy Premade RPG Character Prompt"
 date: "2017-11-23"
 series: creating-the-characters
-image: creating-characters-placeholder.png
+image: placeholder-blog-image.png
 weight: 14
 nextWeight: 15
 ---

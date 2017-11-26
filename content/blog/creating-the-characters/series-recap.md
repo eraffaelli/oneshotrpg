@@ -2,7 +2,7 @@
 title: "How to Create Premade RPG Characters Recap"
 date: "2017-11-26"
 series: creating-the-characters
-image: creating-characters-placeholder.png
+image: placeholder-blog-image.png
 weight: 19
 nextWeight: 20
 ---
