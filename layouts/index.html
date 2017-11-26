@@ -35,8 +35,8 @@
 {{ define "main" }}
   <div class="container">
     <div>
-      <h2>How to Create RPG Characters</h2>
-      <p>Read about the decisions and planning that go into creating a cast of sci-fi and horror RPG characters.</p>
+      <h2>How to Create Premade RPG Characters</h2>
+      <p>Read about the decisions and planning that go into creating a cast of premade sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
         {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
           {{ partial "article-grid-item.html" . }}
@@ -44,7 +44,7 @@
       </div>
       <p class="text-center">
         <a href="/blog/creating-the-characters/">
-          <span class="h4">Read all the articles about creating RPG characters.</span>
+          <span class="h4">Read all the articles about creating premade RPG characters.</span>
         </a>
       </p>
     </div>
