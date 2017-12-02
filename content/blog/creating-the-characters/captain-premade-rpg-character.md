@@ -32,7 +32,7 @@ The fallen captain keeps a level head at all times. It takes a lot to rile her u
 ### Generalized Anxiety
 To an outsider, her people skills and level headedness seem to come second nature to the fallen captain. In reality they don’t. She suffers from generalized anxiety. Everything from meeting new people to making a decision on the battlefield is met with panic and worry. While she does a good job hiding it, her closest friends know that even the little decisions can cause agony.
 
-### Physical Description
+## Physical Description
 The fallen captain is a tall, middle-aged human of Asian descent. She dons her captain's uniform, which she managed to reacquire after her discharge. She has altered the uniform, adding a new emblem that better represents her status as a scum fighter. She always stands upright, with her head held high, maintaining her image as a leader. She wears a communicator device on her arm that she uses to stay in touch with her contacts. Her weapon of choice is a rifle-like railgun.
 
 ## Defining Visual Characteristics
