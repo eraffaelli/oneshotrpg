@@ -35,6 +35,21 @@
 {{ define "main" }}
   <div class="container">
     <div>
+      <h2>How to Create an RPG One Shot</h2>
+      <p>An adventure doesn't write itself. Find out how to write an RPG one shot, from start to finish.</p>
+      <div class="article-grid row">
+        {{ range first 4 (where .Site.Pages "Params.series" "creating-an-adventure").Reverse }}
+          {{ partial "article-grid-item.html" . }}
+        {{ end }}
+      </div>
+      <p class="text-center">
+        <a href="/blog/creating-an-adventure/">
+          <span class="h4">Read all posts about creating an RPG one shot.</span>
+        </a>
+      </p>
+    </div>
+
+    <div class="mt-5">
       <h2>How to Create Premade RPG Characters</h2>
       <p>Read about the decisions and planning that go into creating a cast of premade sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
@@ -44,7 +59,7 @@
       </div>
       <p class="text-center">
         <a href="/blog/creating-the-characters/">
-          <span class="h4">Read all the articles about creating premade RPG characters.</span>
+          <span class="h4">Read all articles about creating premade RPG characters.</span>
         </a>
       </p>
     </div>
