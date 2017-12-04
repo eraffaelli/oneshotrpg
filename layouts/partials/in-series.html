@@ -1,7 +1,7 @@
 {{ $thisPermalink := .RelPermalink }}
 {{ if isset .Params "series" }}
   <aside class="series-callout">
-    <h3 class="h4">
+    <h3 class="h5">
       Series:
       {{ with .Site.GetPage "section" "blog" .Params.series }}<a href="{{ .RelPermalink }}" class="color-inherit">{{ .Title }}</a>{{ end }}
     </h3>

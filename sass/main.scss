@@ -3,46 +3,14 @@ $grid-gutter-width: 50px;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-body {
+html {
   font-size: calc(16px + .25vw);
   line-height: calc(1.35em + .2vw);
 }
 @include media-breakpoint-up(md) {
-  body {
+  html {
     font-size: calc(18px + .25vw);
   }
-}
-
-h1, .h1 { font-weight: 700; }
-h2, .h2 { font-weight: 600; }
-h3, .h3 { font-weight: 400; }
-@include media-breakpoint-down(sm) {
-  .display-3 {
-    font-size: 3rem;
-  }
-  .display-4 {
-    font-size: 2rem;
-  }
-}
-p + h2, p + .h2 {
-  margin-top: map-get($spacers, 4);
-}
-p + h3, p + .h3 {
-  margin-top: map-get($spacers, 4);
-}
-
-a {
-  text-decoration: underline;
-  text-decoration-skip: ink;
-}
-.navbar a {
-  text-decoration: none;
-}
-.color-inherit {
-  color: inherit;
-}
-a.color-inherit {
-  text-decoration-color: $link-color;
 }
 
 .container {
@@ -59,11 +27,36 @@ a.color-inherit {
   }
 }
 
-.nav-item {
-  font-size: 1.25rem;
+h1, .h1 { font-weight: 700; }
+h2, .h2 { font-weight: 600; }
+h3, .h3 { font-weight: 400; }
+p + h2, p + .h2 {
+  margin-top: map-get($spacers, 4);
 }
-.navbar-expand-md .navbar-nav .nav-item:first-child .nav-link {
-  padding-left: 0;
+p + h3, p + .h3 {
+  margin-top: map-get($spacers, 4);
+}
+
+
+.display-3 {
+  font-size: 3rem;
+}
+.display-4 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+.navbar a {
+  text-decoration: none;
+}
+.color-inherit {
+  color: inherit;
+}
+a.color-inherit {
+  text-decoration-color: $link-color;
 }
 
 .article__title__container {
@@ -96,23 +89,15 @@ a.color-inherit {
   }
 }
 
-.sidebar {
-  > * {
-    margin-bottom: map-get($spacers, 2);
-  }
-}
-@include media-breakpoint-up(lg) {
-  .sidebar {
-    > * {
-      margin-bottom: map-get($spacers, 4);
-    }
-  }
-}
-
 .page-title {
+  margin-bottom: map-get($spacers, 3);
+
   @include media-breakpoint-up(lg) {
-    margin-bottom: map-get($spacers, 5);
+    margin-bottom: map-get($spacers, 4);
   }
+}
+.page-title__title {
+  margin-bottom: 0;
 }
 .page-title__breadcrumbs {
   .breadcrumb {
@@ -125,6 +110,19 @@ a.color-inherit {
     @include media-breakpoint-down(md) {
       padding-right: .25rem;
       padding-left: .25rem;
+    }
+  }
+}
+
+.sidebar {
+  > * {
+    margin-bottom: map-get($spacers, 2);
+  }
+}
+@include media-breakpoint-up(lg) {
+  .sidebar {
+    > * {
+      margin-bottom: map-get($spacers, 4);
     }
   }
 }

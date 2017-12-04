@@ -5865,13 +5865,24 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-body {
+html {
   font-size: calc(16px + .25vw);
   line-height: calc(1.35em + .2vw); }
 
 @media (min-width: 768px) {
-  body {
+  html {
     font-size: calc(18px + .25vw); } }
+
+.container {
+  max-width: 750px; }
+
+@media (min-width: 576px) {
+  .container {
+    width: 92vw; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1440px; } }
 
 h1, .h1 {
   font-weight: 700; }
@@ -5882,17 +5893,17 @@ h2, .h2 {
 h3, .h3 {
   font-weight: 400; }
 
-@media (max-width: 767px) {
-  .display-3 {
-    font-size: 3rem; }
-  .display-4 {
-    font-size: 2rem; } }
-
 p + h2, p + .h2 {
   margin-top: 1.5rem; }
 
 p + h3, p + .h3 {
   margin-top: 1.5rem; }
+
+.display-3 {
+  font-size: 3rem; }
+
+.display-4 {
+  font-size: 2rem; }
 
 a {
   text-decoration: underline;
@@ -5906,23 +5917,6 @@ a {
 
 a.color-inherit {
   text-decoration-color: #007bff; }
-
-.container {
-  max-width: 750px; }
-
-@media (min-width: 576px) {
-  .container {
-    width: 92vw; } }
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 1440px; } }
-
-.nav-item {
-  font-size: 1.25rem; }
-
-.navbar-expand-md .navbar-nav .nav-item:first-child .nav-link {
-  padding-left: 0; }
 
 .article-grid {
   margin-top: 1.5rem; }
@@ -5942,16 +5936,14 @@ a.color-inherit {
     .table-of-contents > nav > ul > li > ul ul {
       list-style-type: lower-roman; }
 
-.sidebar > * {
-  margin-bottom: 0.5rem; }
+.page-title {
+  margin-bottom: 1rem; }
+  @media (min-width: 992px) {
+    .page-title {
+      margin-bottom: 1.5rem; } }
 
-@media (min-width: 992px) {
-  .sidebar > * {
-    margin-bottom: 1.5rem; } }
-
-@media (min-width: 992px) {
-  .page-title {
-    margin-bottom: 3rem; } }
+.page-title__title {
+  margin-bottom: 0; }
 
 .page-title__breadcrumbs .breadcrumb {
   background-color: transparent;
@@ -5962,6 +5954,13 @@ a.color-inherit {
   .page-title__breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
     padding-right: .25rem;
     padding-left: .25rem; } }
+
+.sidebar > * {
+  margin-bottom: 0.5rem; }
+
+@media (min-width: 992px) {
+  .sidebar > * {
+    margin-bottom: 1.5rem; } }
 
 footer {
   background-color: #e9ecef; }
