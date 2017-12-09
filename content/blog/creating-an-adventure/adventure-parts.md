@@ -2,7 +2,7 @@
 title: "Splitting the One Shot RPG into Parts"
 date: "2017-12-09"
 series: creating-an-adventure
-image: placeholder-blog-image.png
+image: placeholder-blog-image-2.png
 weight: 2
 nextWeight: 3
 ---

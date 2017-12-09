@@ -2,7 +2,7 @@
 title: "Goals for Creating a One Shot RPG Adventure"
 date: "2017-12-03"
 series: creating-an-adventure
-image: placeholder-blog-image.png
+image: placeholder-blog-image-1.png
 weight: 1
 nextWeight: 2
 ---
