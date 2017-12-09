@@ -26,7 +26,7 @@ No further lore is needed for a new player to get into the game, it’s all expl
 New characters can be introduced into the setting because there’s four alien species across three planets. The focus on small scale and personal stories means there can be more variety in the stories told.
 
 ### Providing a Hook
-The hook for players is stated in the elevator pitch. The characters have decided to do something about the problem the military is overlooking and to deal with the problem of scummed individuals.
+The hook for players--what their characters will be doing during an adventure--is stated in the elevator pitch. The party has decided to do something about the problem the military is overlooking: scummed individuals.
 
 ### Equal Opportunity
 Anyone can be affected by scum or those that were scummed, so characters can come from all backgrounds and circumstances. I’ll make sure the cast is diverse and that a variety of people are the hero or villain.
