@@ -31,7 +31,7 @@ Having the product utilize accessible characters is important for business reaso
 ## Narrative Goals
 
 ### Character Backgrounds
-Characters should come from a variety of backgrounds and should have differing reasons for fighting the scummed. Having different backgrounds and motivations between the characters adds interest and drama in the story. If all the characters are ex-military mercenaries, then players may not bat an eye at killing scummed--when leaving them alone or attempting the cure would add a lot more drama to the story. If one of the characters was a civilian instead, who had a loved one succumb to scum, they may be more inclined to convince the party to make a different decision.
+Characters should come from a variety of backgrounds and should have differing reasons for fighting the scummed. Having different backgrounds and motivations between the characters adds interest and drama in the story. If all the characters are ex-military mercenaries, then players may not bat an eye at killing scummed---when leaving them alone or attempting the cure would add a lot more drama to the story. If one of the characters was a civilian instead, who had a loved one succumb to scum, they may be more inclined to convince the party to make a different decision.
 
 A character’s background also includes its alien species. There are [four playable alien species](/blog/creating-the-setting/planets-and-races/) in One Shot RPG. Characters should come from each of them. There doesn’t have to be a perfect balance, as human characters are more likely to resonate with players, but that doesn’t mean _all_ characters should be human. Characters from each species should be introduced throughout the life of the product. Playing as and interacting with different aliens species is one of the tenants of the sci-fi genre, and I want to capture that feel.
 
@@ -39,7 +39,7 @@ A character’s background also includes its alien species. There are [four play
 
 Like differing backgrounds, characters in One Shot RPG should differ in personality. Designing each character to have a unique personality leads to them feeling like a unique individual. Characters can have overlapping personality traits, but each should have their own quirks and facets that set them apart.
 
-Player characters should be varied, but they should all fit in with each other and get along as a group. They don’t have to see eye to eye--and shouldn’t, as opposing opinions can lead to interesting conflict--but the characters shouldn't hate each other. The party shouldn't descend into a non-functioning, chaotic mess. A character who never follows orders and gets the party into terrible situations isn’t fun to have in the group. A character who _occassionally_ doesn’t follow orders which causes trouble for the group is much more interesting and fun to play.
+Player characters should be varied, but they should all fit in with each other and get along as a group. They don’t have to see eye to eye---and shouldn’t, as opposing opinions can lead to interesting conflict---but the characters shouldn't hate each other. The party shouldn't descend into a non-functioning, chaotic mess. A character who never follows orders and gets the party into terrible situations isn’t fun to have in the group. A character who _occassionally_ doesn’t follow orders which causes trouble for the group is much more interesting and fun to play.
 
 ### Keeping it Fresh
 

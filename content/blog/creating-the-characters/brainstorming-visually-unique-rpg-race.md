@@ -15,7 +15,7 @@ When planning out the _plant and stone people_ playable alien race, I was gettin
 ## Setting the Foundation for All Creatures
 The goal of the brainstorm is to come up with a visually distinct feature for the playable RPG race. However, it also has an impact on the rest of [life on Mars](/blog/creating-the-setting/planets-and-races/#mars). This element can be reused across the entire range of fauna, so any creature from Mars can be identified as coming from that planet.
 
-Let’s say that the chosen idea is the One Shot RPG race features a large, segmented tail with a stinger on the end--like a scorpion. Every creature, from a lowly pack animal to a top predator could also feature this scorpion tail. Reusing the aspect across species makes the planet feel cohesive, as if all of the creatures came from the same evolutionary precursor.
+Let’s say that the chosen idea is the One Shot RPG race features a large, segmented tail with a stinger on the end---like a scorpion. Every creature, from a lowly pack animal to a top predator could also feature this scorpion tail. Reusing the aspect across species makes the planet feel cohesive, as if all of the creatures came from the same evolutionary precursor.
 
 An idea that changes the race’s body shape is more effective in this context than something that doesn’t. Earlier articles mention that members of the plant and stone people are covered in glowing fungus. Glowing fungus can be compared to a tattoo, which something that doesn’t change the race’s silhouette. A creature from another planet may have markings that can be confused as the glowing fungus, and players may mistakenly think that creature is from Mars. The glowing patch of fungus idea is being scrapped for something new.
 

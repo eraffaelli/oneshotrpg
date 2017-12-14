@@ -10,13 +10,13 @@ nextWeight: 13
 The playable races of One Shot RPG are finally given a proper name. The names adhere to a set of requirements designed to get players into the game faster and to prevent confusion at the table.<!--more-->
 
 ## Time for a Name
-Up until now I’ve been referring to the three alien RPG character races by a generic name: plant and stone people, animal people, and metal people. These generic names are what humans call the alien species, as sort of a shorthand or slang. This is true both inworld and out--it’s what _I’ve_ been calling them so far. It’s time to give these species a proper name, a word that they would use to describe themselves.
+Up until now I’ve been referring to the three alien RPG character races by a generic name: plant and stone people, animal people, and metal people. These generic names are what humans call the alien species, as sort of a shorthand or slang. This is true both inworld and out---it’s what _I’ve_ been calling them so far. It’s time to give these species a proper name, a word that they would use to describe themselves.
 
 ## Goals for Naming RPG Races
 There are a few things to consider when coming up for a name for an RPG race. These requirements are designed to make the [setting more accessible](/blog/creating-the-setting/requirements-for-a-role-playing-game-setting/#gameplay-and-experience-requirements) and to allow the customer to [get into the game faster](/blog/creating-the-setting/justification-for-one-shot-rpg/#the-issue-of-preparation-and-accessibility) by not having to have to remember race names. The requirements for the names are:
 
 - Short, one word
-- Real word--not made up
+- Real word---not made up
 - Generic
 - Relate to the race
 - Doesn’t conflict with other phrases
@@ -25,7 +25,7 @@ There are a few things to consider when coming up for a name for an RPG race. Th
 The name should be short, a single word, limited to three syllables, and not use any punctuation.
 
 ### Real Word
-Using a real word--not one that’s made up--allows players to understand the setting more easily because they don’t have to memorize new words.
+Using a real word---not one that’s made up---allows players to understand the setting more easily because they don’t have to memorize new words.
 
 ### Generic
 I should use a generic term, something that’s not trademarkable. On the issue of intellectual property it could be argued that the race’s name is generic enough to not infringe upon any other IP.

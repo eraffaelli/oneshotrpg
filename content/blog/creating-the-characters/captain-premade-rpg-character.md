@@ -16,11 +16,11 @@ The fallen captain premade RPG character uses her connections and leadership ski
 - Leader
 
 ## Background
-The captain--before she became fallen--was a well respected and well connected member of the Earth military. She was active in the time before the cosmic horror threat and the tri-planet was alliance formed. Despite being in the Earth military, she vowed to protect and serve _all_ sapient species of the solar system, not just humans. Her subordinates looked up to her as a role model and she provided inspiration to those who wished to advance the ranks. She cared about her soldiers, and it was her duty to keep them safe.
+The captain---before she became fallen---was a well respected and well connected member of the Earth military. She was active in the time before the cosmic horror threat and the tri-planet was alliance formed. Despite being in the Earth military, she vowed to protect and serve _all_ sapient species of the solar system, not just humans. Her subordinates looked up to her as a role model and she provided inspiration to those who wished to advance the ranks. She cared about her soldiers, and it was her duty to keep them safe.
 
-The captain and her crew were performing a routine search and rescue operation: helping to find a lost research vessel that was last heard sending out an S.O.S. During the mission, something odd appeared on the scanners, something even the military’s AI couldn’t describe. The captain gave the order to investigate the anomaly, and the ship headed towards it. That was the day the cosmic horrors revealed themselves, the anomaly--a twisted alien abomination--attacked. The ship didn’t stand a chance against the monster’s then unknown powers. The captain managed to survive, most of her charges didn’t.
+The captain and her crew were performing a routine search and rescue operation: helping to find a lost research vessel that was last heard sending out an S.O.S. During the mission, something odd appeared on the scanners, something even the military’s AI couldn’t describe. The captain gave the order to investigate the anomaly, and the ship headed towards it. That was the day the cosmic horrors revealed themselves, the anomaly---a twisted alien abomination---attacked. The ship didn’t stand a chance against the monster’s then unknown powers. The captain managed to survive, most of her charges didn’t.
 
-Wracked with guilt and grief, the captain started relentlessly investigating the new cosmic horror monstrosities. In her studies she discovered the rumors of scum and its origins. Her thirst for knowledge brought the ire of the military--after all, they were trying to cover up scum in their quest for warp technology. They silenced her by means of honorable discharge, the captain had become fallen. She was betrayed by the institution she devoted her life to. Now she fulfills her vow to protect and serve by being a scum fighter.
+Wracked with guilt and grief, the captain started relentlessly investigating the new cosmic horror monstrosities. In her studies she discovered the rumors of scum and its origins. Her thirst for knowledge brought the ire of the military---after all, they were trying to cover up scum in their quest for warp technology. They silenced her by means of honorable discharge, the captain had become fallen. She was betrayed by the institution she devoted her life to. Now she fulfills her vow to protect and serve by being a scum fighter.
 
 ## Personality
 ### Outgoing and Connected
@@ -49,7 +49,7 @@ The captain covered up her old squad’s emblem with a new one, one that represe
 ### Communicator Device
 - Represents her well-connectedness
 
-The fallen captain wears a communication device--an old fashioned, bulky one at that. This model is worn on her left arm, starting with a fingerless glove and extending up to the elbow. When activated, it projects various screens and interfaces into the user’s vision using the chip. To the onlooker it looks as if she is tapping and typing into thin air. She uses the device to maintain contact with her connections.
+The fallen captain wears a communication device---an old fashioned, bulky one at that. This model is worn on her left arm, starting with a fingerless glove and extending up to the elbow. When activated, it projects various screens and interfaces into the user’s vision using the chip. To the onlooker it looks as if she is tapping and typing into thin air. She uses the device to maintain contact with her connections.
 
 ## Battle Mechanics
 ### Gameplay Niche

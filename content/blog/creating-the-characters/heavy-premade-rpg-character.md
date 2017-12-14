@@ -43,12 +43,12 @@ Her frame and weapon are covered in graffiti “tattoos”. These haphazard illu
 ### Hammer
 - Represents constant improvement
 
-The heavy chooses to wield a large tech hammer, a difficult and cumbersome weapon. It requires great strength and skill to master this impractical weapon. To her, it’s another challenge that she’s set out to accomplish--which makes it represent her need for constant improvement.
+The heavy chooses to wield a large tech hammer, a difficult and cumbersome weapon. It requires great strength and skill to master this impractical weapon. To her, it’s another challenge that she’s set out to accomplish---which makes it represent her need for constant improvement.
 
 ### Lights
 - Represent brash personality and depression
 
-There are many lights embedded into her cyborg frame. These lights are used to illustrate her mood. They turn to bright, warm colors in the heat of battle--or the heat of an argument. The lights blink proudly when she’s recounting one of her tales of triumph. They turn to cool colors and pulse slowly when the heavy is battling with her depression. An onlooker can always tell how she’s feeling by observing the lights.
+There are many lights embedded into her cyborg frame. These lights are used to illustrate her mood. They turn to bright, warm colors in the heat of battle---or the heat of an argument. The lights blink proudly when she’s recounting one of her tales of triumph. They turn to cool colors and pulse slowly when the heavy is battling with her depression. An onlooker can always tell how she’s feeling by observing the lights.
 
 ## Battle Mechanics
 ### Gameplay Niche

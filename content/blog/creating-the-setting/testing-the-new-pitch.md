@@ -11,7 +11,7 @@ By testing the new elevator pitch against the [stated requirements for a success
 
 As determined in the [last article](/blog/creating-the-setting/better-elevator-pitch/), the elevator pitch is as follows:
 
-_One Shot RPG takes place in our solar system, but something’s not right. Venus and Mars aren’t the same planets we remember and they’re home to alien life. Pluto’s in a different location, it’s actually a gate to another world, and it’s releasing cosmic horrors. A new military alliance has been formed to stop the monster threat and to get their hands on this new warp technology. Rumors abound that there’s a new substance--scum--that twists and corrupts good people, turning them into monsters not unlike those that are being warred against. Players take the role of characters who have decided to deal with this terrestrial threat. Doing so has branded them traitors. After all, if word got out that the military’s campaign is threatening the very people they’re sworn to protect, they wouldn’t be able to justify getting their hands on the very technology they seek._
+_One Shot RPG takes place in our solar system, but something’s not right. Venus and Mars aren’t the same planets we remember and they’re home to alien life. Pluto’s in a different location, it’s actually a gate to another world, and it’s releasing cosmic horrors. A new military alliance has been formed to stop the monster threat and to get their hands on this new warp technology. Rumors abound that there’s a new substance---scum---that twists and corrupts good people, turning them into monsters not unlike those that are being warred against. Players take the role of characters who have decided to deal with this terrestrial threat. Doing so has branded them traitors. After all, if word got out that the military’s campaign is threatening the very people they’re sworn to protect, they wouldn’t be able to justify getting their hands on the very technology they seek._
 
 ## Sci-Fi and Horror Genre
 The new elevator pitch incorporates elements of both sci-fi and horror genres. It features planet exploration, alien species, and space ships to cater to the sci-fi fan. It also has monsters and an infectious substance that turns people into monsters for the horror fans.
@@ -26,7 +26,7 @@ No further lore is needed for a new player to get into the game, it’s all expl
 New characters can be introduced into the setting because there’s four alien species across three planets. The focus on small scale and personal stories means there can be more variety in the stories told.
 
 ### Providing a Hook
-The hook for players--what their characters will be doing during an adventure--is stated in the elevator pitch. The party has decided to do something about the problem the military is overlooking: scummed individuals.
+The hook for players---what their characters will be doing during an adventure---is stated in the elevator pitch. The party has decided to do something about the problem the military is overlooking: scummed individuals.
 
 ### Equal Opportunity
 Anyone can be affected by scum or those that were scummed, so characters can come from all backgrounds and circumstances. I’ll make sure the cast is diverse and that a variety of people are the hero or villain.

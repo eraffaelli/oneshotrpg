@@ -21,7 +21,7 @@ Instead of setting a time limit, I stop when I feel like I’ve generated enough
 I don’t remember where I learned it, but I was told there are no bad ideas during a brainstorm. Listing lots of bad ideas and working through them to determine why they are bad can point to the best choice.
 
 ## The first idea can be the best, or not
-I’ve heard that your first idea to a problem is always the worst solution. I find that’s not the case. The first idea I write down in a brainstorm is one that I’ve been thinking over for some time, that’s already been tested against the goal. It doesn’t mean the first idea is always the best--it shouldn’t be thrown out simply because it was the first.
+I’ve heard that your first idea to a problem is always the worst solution. I find that’s not the case. The first idea I write down in a brainstorm is one that I’ve been thinking over for some time, that’s already been tested against the goal. It doesn’t mean the first idea is always the best---it shouldn’t be thrown out simply because it was the first.
 
 ## Setting a Goal
 I start the brainstorm session by writing the topic down. While there are no bad ideas, there are off topic ones. An idea that doesn’t follow the topic doesn’t get written down.
