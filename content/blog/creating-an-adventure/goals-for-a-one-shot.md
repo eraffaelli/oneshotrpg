@@ -22,7 +22,7 @@ Now that the [setting has been ironed out](/blog/creating-the-setting/summary/) 
 - Be different with each playthrough
 - Divided up into encounters with clear goals
 - Start off sandbox-style, lead to cinematic set pieces
-- Be failed, but failure should be fun
+- Be able to be failed, but failure should be fun
 - Take down a scummed
 - Compelling reasons to kill, cure, or let the scummed be
 - Take advantage of the party’s mechanical and role playing strengths
