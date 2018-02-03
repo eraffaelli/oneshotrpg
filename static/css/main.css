@@ -6067,8 +6067,7 @@ p + h3, p + .h3 {
   font-size: 2rem; }
 
 a {
-  text-decoration: underline;
-  text-decoration-skip: ink; }
+  text-decoration: underline; }
 
 .navbar a {
   text-decoration: none; }
