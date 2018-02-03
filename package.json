@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.0.0",
     "node-sass": "^4.5.3"
   },
   "scripts": {
