@@ -1,10 +1,10 @@
 ---
 title: "Brainstorming a Visually Unique RPG Race"
 date: "2017-11-18"
-series: creating-the-characters
 image: creating-characters-8.png
+series: creating-the-characters
+series_weight: 8
 weight: 8
-nextWeight: 9
 ---
 
 A brainstorm session can be used as a tool to work through a problem when stuck. This brainstorm explores creating a unique visual feature for the playable RPG character race from Mars.<!--more-->

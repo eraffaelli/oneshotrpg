@@ -1,10 +1,10 @@
 ---
 title: "Creating the RPG Encounter Flow"
 date: "2017-12-20"
-series: creating-an-adventure
 image: placeholder-blog-image-2.png
+series: creating-an-adventure
+series_weight: 12
 weight: 12
-nextWeight: 13
 ---
 
 The first One Shot RPG is structured similar to the plot of a sci-fi horror movie. Each encounter should reveal something about the monster, and the adventure concludes with a showdown against the scummed.<!--more-->

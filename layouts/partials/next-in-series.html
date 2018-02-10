@@ -1,0 +1,10 @@
+{{ if isset .Params "series" }}
+  {{ $nextWeight := (add .Params.series_weight 1) }}
+  {{ range (index .Site.Taxonomies.series .Params.series) }}
+    {{ if eq .Params.series_weight $nextWeight }}
+    <aside>
+      <p><span class="h5">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+    </aside>
+    {{ end }}
+  {{ end }}
+{{ end }}

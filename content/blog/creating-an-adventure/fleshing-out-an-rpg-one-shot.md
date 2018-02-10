@@ -1,10 +1,10 @@
 ---
 title: "Fleshing out An RPG One Shot Idea"
 date: "2017-12-12"
-series: creating-an-adventure
 image: placeholder-blog-image-4.png
+series: creating-an-adventure
+series_weight: 4
 weight: 4
-nextWeight: 5
 ---
 
 An idea for an adventure, based on an unrelated dream, is tweaked to fit the sci-fi horror setting of One Shot RPG.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "Diversity Goals for RPG Characters"
 date: "2017-11-05"
-series: creating-the-characters
 image: creating-characters-2.png
+series: creating-the-characters
+series_weight: 2
 weight: 2
-nextWeight: 3
 ---
 
 Diversity includes a range of factors, such as gender, body shape, ethnicity and race, sexual orientation, age, disability, and mental illness. When designing a cast of playable characters, giving special consideration to diversity makes sense from genre, community, business, and world building perspectives.<!--more-->

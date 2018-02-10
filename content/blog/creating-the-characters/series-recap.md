@@ -1,10 +1,10 @@
 ---
 title: "How to Create Premade RPG Characters Recap"
 date: "2017-11-26"
-series: creating-the-characters
 image: creating-characters-19.png
+series: creating-the-characters
+series_weight: 19
 weight: 19
-nextWeight: 20
 ---
 
 A lot of groundwork had to be laid before the cast of premade RPG characters could be constructed. Many questions had to be answered, such as how abilities and weapons work; the kinds of technology available to characters; and what aspects makes the RPG races unique. Answering those questions led to the creation of the initial cast of One Shot RPG characters.<!--more-->

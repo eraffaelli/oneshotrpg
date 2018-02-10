@@ -1,10 +1,10 @@
 ---
 title: "The Flamethrower Premade RPG Character Prompt"
 date: "2017-11-25"
-series: creating-the-characters
 image: creating-characters-17.png
+series: creating-the-characters
+series_weight: 17
 weight: 17
-nextWeight: 18
 ---
 
 Suffering tragedy in his past, the flamethrower has taken up the life of a scum fighter. As his name implies, this premade RPG character carries around a large flamethrower that also happens to be his entire left arm.<!--more-->

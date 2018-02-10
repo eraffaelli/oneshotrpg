@@ -1,10 +1,10 @@
 ---
 title: "Ending the Series: A Shift In Focus"
 date: "2018-02-03"
-series: creating-an-adventure
 image: placeholder-blog-image-3.png
+series: creating-an-adventure
+series_weight: 13
 weight: 13
-nextWeight: 14
 ---
 
 One Shot RPG is moving from tabletop role playing games to video games. Same world and characters, different medium.<!--more-->

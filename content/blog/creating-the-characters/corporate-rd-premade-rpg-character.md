@@ -1,10 +1,10 @@
 ---
 title: "The Corporate R&D Premade RPG Character Prompt"
 date: "2017-11-25"
-series: creating-the-characters
 image: creating-characters-18.png
+series: creating-the-characters
+series_weight: 18
 weight: 18
-nextWeight: 19
 ---
 
 The corporate R&D is a character that has unyielding loyalty to his employer, who turned his life around. He is working to take scum and develop a procedure that gives people powerful abilities, which has led him to the life of a scum fighter.<!--more-->

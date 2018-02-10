@@ -1,10 +1,10 @@
 ---
 title: "AI and Internet Connected Characters"
 date: "2017-11-12"
-series: creating-the-characters
 image: creating-characters-6.png
+series: creating-the-characters
+series_weight: 6
 weight: 6
-nextWeight: 7
 ---
 
 In our present times, technologies like AI, VR, AR, and IoT are rapidly being developed. In the future version of our world, these technologies will have advanced further than we can even dream of. One Shot RPG should incorporate these technologies into its character designs, but in a way that doesn’t undermine the element of horror.<!--more-->

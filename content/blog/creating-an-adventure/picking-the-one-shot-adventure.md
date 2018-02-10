@@ -1,10 +1,10 @@
 ---
 title: "Picking the First One Shot RPG"
 date: "2017-12-13"
-series: creating-an-adventure
 image: placeholder-blog-image-1.png
+series: creating-an-adventure
+series_weight: 6
 weight: 6
-nextWeight: 7
 ---
 
 The first sci-fi horror RPG one shot will be the “farm of the future” idea. It provides a basis for a variety of encounters and offers opportunities for the premade characters to shine.<!--more-->

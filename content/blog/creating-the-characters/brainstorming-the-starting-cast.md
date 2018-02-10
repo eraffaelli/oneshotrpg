@@ -1,10 +1,10 @@
 ---
 title: "Brainstorming the Starting Cast of Characters"
 date: "2017-11-09"
-series: creating-the-characters
 image: creating-characters-4.png
+series: creating-the-characters
+series_weight: 4
 weight: 4
-nextWeight: 5
 ---
 
 The initial cast of characters for One Shot RPG was brainstormed by focusing on a strong class fantasy. Over 25 different options were created with the intent of narrowing the list down to five ideas.<!--more-->

@@ -48,17 +48,20 @@
         "@id": "{{ "/blog/" | absURL }}",
         "name": "Blog"
       }
-    },
-    {
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      {{ with .Site.GetPage "section" "blog" .Params.series }}
-        "@id": "{{ .Permalink }}",
-        "name": "{{ .Title }}"
-      {{ end }}
-      }
     }
+    {{ if isset .Params "series" }}
+      ,
+      {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        {{ with .Site.GetPage "section" "blog" .Params.series }}
+          "@id": "{{ .Permalink }}",
+          "name": "{{ .Title }}"
+        {{ end }}
+        }
+      }
+    {{ end }}
   ]
 }
 </script>
@@ -84,7 +87,7 @@
     <div class="row">
       <div class="col-lg-7">
         <section class="article__content">
-          {{ if .Params.image }}
+          {{ if isset .Params "image" }}
             <figure class="figure article__featured-image">
               <img
                 srcset="/img/half/{{ .Params.image }} 400w,
@@ -100,17 +103,7 @@
           {{ .Content }}
         </section>
 
-        {{/* I would use (add .Weight 1) instead of .Params.nextWeight, but the MATCH argument of where doesn't evaluate functions or variables. "where .Site.Pages "Params.weight" (add .Weight 1)" does not work. */}}
-        {{ $inNextWeight := where .Site.Pages "Params.weight" .Params.nextWeight }}
-        {{ $inSeries := where .Site.Pages "Params.series" .Params.series }}
-        {{ $nextArticles := $inNextWeight | intersect $inSeries }}
-        {{ if $nextArticles }}
-          {{ range first 1 $nextArticles }}
-            <aside>
-              <p><span class="h5">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
-            </aside>
-          {{ end }}
-        {{ end }}
+        {{ partial "next-in-series.html" . }}
       </div>
       <aside class="sidebar col-lg-5">
         <aside class="font-italic">Posted on {{ .Date.Format "January 2, 2006" }}</aside>

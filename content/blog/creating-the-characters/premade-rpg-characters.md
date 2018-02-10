@@ -1,10 +1,10 @@
 ---
 title: "Selecting Premade RPG Characters"
 date: "2017-11-21"
-series: creating-the-characters
 image: creating-characters-13.png
+series: creating-the-characters
+series_weight: 13
 weight: 13
-nextWeight: 14
 ---
 
 The starting cast of premade RPG characters have finally been decided on. These characters are split across different mechanical roles to form a balanced party.<!--more-->

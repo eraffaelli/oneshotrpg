@@ -1,10 +1,10 @@
 ---
 title: "Summary of How to Create a Sci-Fi and Horror Setting"
 date: "2017-11-03"
-series: creating-the-setting
 image: creating-setting-12.png
+series: creating-the-setting
+series_weight: 12
 weight: 12
-nextWeight: 13
 ---
 
 The process of creating a setting for One Shot RPG started by defining goals and ended with a fully developed elevator pitch. In between, the unique sci-fi and horror roleplaying game setting started to take shape.<!--more-->

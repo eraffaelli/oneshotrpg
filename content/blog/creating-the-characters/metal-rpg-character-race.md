@@ -1,10 +1,10 @@
 ---
 title: "Metal People RPG Character Race"
 date: "2017-11-20"
-series: creating-the-characters
 image: creating-characters-11.png
+series: creating-the-characters
+series_weight: 11
 weight: 11
-nextWeight: 12
 ---
 
 The fourth playable RPG race are beings made of living metal. They are not to be confused with androids or cyborgs, their bodies grow and age. The metal people have a mysterious connection with the invading cosmic horrors, and may have even arrived through the same means.<!--more-->

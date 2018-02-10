@@ -1,10 +1,10 @@
 ---
 title: "Animal People RPG Character Race"
 date: "2017-11-19"
-series: creating-the-characters
 image: creating-characters-10.png
+series: creating-the-characters
+series_weight: 10
 weight: 10
-nextWeight: 11
 ---
 
 The _animal people_ playable RPG race resembles a mashup of various Earth fauna. Like the chimera of ancient myth, the race combines the head, body, and legs of different species. Add in the sharp claws and fangs, and the race takes on a fierce appearance.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "A Failed Sci-Fi and Horror Setting"
 date: "2017-10-21"
-series: creating-the-setting
 image: creating-setting-4.png
+series: creating-the-setting
+series_weight: 4
 weight: 4
-nextWeight: 5
 ---
 
 The first sci-fi and horror narrative idea for running one shot adventures fails to meet the limitations and requirements that were outlined. While the elevator pitch meets most of the tone requirements, it didn’t meet the important business and gameplay goals.<!--more-->

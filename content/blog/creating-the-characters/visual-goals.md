@@ -1,10 +1,10 @@
 ---
 title: "Visual Goals for RPG Characters"
 date: "2017-11-06"
-series: creating-the-characters
 image: creating-characters-3.png
+series: creating-the-characters
+series_weight: 3
 weight: 3
-nextWeight: 4
 ---
 
 For One Shot RPG, an effective character design is based around a single defining visual element. This element is integral to the character, demonstrating their personality, motivations, and backstory. Secondary visual elements can also be used to show additional aspects of the character and to tie everything together.<!--more-->

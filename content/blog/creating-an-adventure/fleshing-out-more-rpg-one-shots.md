@@ -1,10 +1,10 @@
 ---
 title: "Fleshing Out More RPG One Shot Ideas"
 date: "2017-12-12"
-series: creating-an-adventure
 image: placeholder-blog-image-5.png
+series: creating-an-adventure
+series_weight: 5
 weight: 5
-nextWeight: 6
 ---
 
 Two more ideas for a sci-fi horror RPG adventure are discussed in this article.<!--more-->

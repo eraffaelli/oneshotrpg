@@ -1,10 +1,10 @@
 ---
 title: "Brainstorming what the RPG One Shot is About"
 date: "2017-12-11"
-series: creating-an-adventure
 image: placeholder-blog-image-3.png
+series: creating-an-adventure
+series_weight: 3
 weight: 3
-nextWeight: 4
 ---
 
 Ten ideas for an RPG one shot adventure, from a winding suburb community to a futuristic farm complex, are discussed in this brainstorm.<!--more-->

@@ -38,7 +38,7 @@
       <h2>How to Create an RPG One Shot</h2>
       <p>An adventure doesn't write itself. Find out how to write an RPG one shot, from start to finish.</p>
       <div class="article-grid row">
-        {{ range first 4 (where .Site.Pages "Params.series" "creating-an-adventure").Reverse }}
+        {{ range first 4 (index .Site.Taxonomies.series "creating-an-adventure").Pages.Reverse }}
           {{ partial "article-grid-item.html" . }}
         {{ end }}
       </div>
@@ -53,7 +53,7 @@
       <h2>How to Create Premade RPG Characters</h2>
       <p>Read about the decisions and planning that go into creating a cast of premade sci-fi and horror RPG characters.</p>
       <div class="article-grid row">
-        {{ range first 4 (where .Site.Pages "Params.series" "creating-the-characters").Reverse }}
+        {{ range first 4 (index .Site.Taxonomies.series "creating-the-characters").Pages.Reverse }}
           {{ partial "article-grid-item.html" . }}
         {{ end }}
       </div>
@@ -68,7 +68,7 @@
       <h2>How to Create a Sci-Fi and Horror Setting</h2>
       <p>Want to know the behind the scenes details on how sci-fi and horror game setting was created?</p>
       <div class="article-grid row">
-        {{ range first 4 (where .Site.Pages "Params.series" "creating-the-setting").Reverse }}
+        {{ range first 4 (index .Site.Taxonomies.series "creating-the-setting").Pages.Reverse }}
           {{ partial "article-grid-item.html" . }}
         {{ end }}
       </div>

@@ -1,10 +1,10 @@
 ---
 title: "The Heavy Premade RPG Character Prompt"
 date: "2017-11-23"
-series: creating-the-characters
 image: creating-characters-14.png
+series: creating-the-characters
+series_weight: 14
 weight: 14
-nextWeight: 15
 ---
 
 The heavy is a brash, hammer wielding, cyborg bodybuilder premade RPG character. Her large, commanding frame is covered in graffiti tattoos, which are testaments to her triumphs.<!--more-->

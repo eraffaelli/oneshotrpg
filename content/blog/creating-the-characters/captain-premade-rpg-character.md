@@ -1,10 +1,10 @@
 ---
 title: "The Fallen Captain Premade RPG Character Prompt"
 date: "2017-11-24"
-series: creating-the-characters
 image: creating-characters-16.png
+series: creating-the-characters
+series_weight: 16
 weight: 16
-nextWeight: 17
 ---
 
 The fallen captain premade RPG character uses her connections and leadership skills to support the party. She attacks at range using her rifle-like railgun.<!--more-->

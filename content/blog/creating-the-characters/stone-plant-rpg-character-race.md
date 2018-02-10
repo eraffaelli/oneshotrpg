@@ -1,10 +1,10 @@
 ---
 title: "Stone and Plant People RPG Character Race"
 date: "2017-11-19"
-series: creating-the-characters
 image: creating-characters-9.png
+series: creating-the-characters
+series_weight: 9
 weight: 9
-nextWeight: 10
 ---
 
 One Shot RPG features a playable race of aliens who range from being made of stone to being made of plant material. All individuals of the race feature a naturally grown collar, and modifying it is used to show their status in society.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "Animal Production and Administration on the Farm"
 date: "2017-12-17"
-series: creating-an-adventure
 image: placeholder-blog-image-1.png
+series: creating-an-adventure
+series_weight: 11
 weight: 11
-nextWeight: 12
 ---
 
 The first One Shot RPG setting also produces animals and animal products. But, it's the farm’s business offices prove to be the scummed’s primary targets.<!--more-->

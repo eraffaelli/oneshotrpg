@@ -1,10 +1,10 @@
 ---
 title: "Personal Goals for Creating an RPG Product"
 date: "2017-10-14"
-series: creating-the-setting
 image: creating-setting-1.png
+series: creating-the-setting
+series_weight: 1
 weight: 1
-nextWeight: 2
 ---
 
 My personal goals for creating One Shot RPG, a line of tabletop role playing game supplements, can be divided into three categories: happiness, business, and recognition related. I feel these goals are modest enough to be achievable, but also deep enough to provide a clear path to completion.<!--more-->

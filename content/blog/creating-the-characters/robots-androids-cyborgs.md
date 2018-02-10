@@ -1,10 +1,10 @@
 ---
 title: "Robots, Androids, and Cyborg RPG Characters"
 date: "2017-11-13"
-series: creating-the-characters
 image: creating-characters-7.png
+series: creating-the-characters
+series_weight: 7
 weight: 7
-nextWeight: 8
 ---
 
 Robots, androids, cyborgs, creating organisms, modifying DNA, and extreme body modifications are part of everyday life in One Shot RPG. It’s up to an individual to choose if they want to stay natural or modify, if they weren’t already modified before they were born, that is.<!--more-->

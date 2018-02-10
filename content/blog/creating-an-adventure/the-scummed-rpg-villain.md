@@ -1,10 +1,10 @@
 ---
 title: "The Scummed Character Brief"
 date: "2017-12-15"
-series: creating-an-adventure
 image: placeholder-blog-image-4.png
+series: creating-an-adventure
+series_weight: 9
 weight: 9
-nextWeight: 10
 ---
 
 The first One Shot RPG villain comes from a past filled with hardship and trauma. As a newly created scummed, she uses her plant-based abilities to get her revenge against the company that traumatized her childhood.<!--more-->

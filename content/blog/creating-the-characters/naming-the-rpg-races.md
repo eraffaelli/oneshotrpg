@@ -1,10 +1,10 @@
 ---
 title: "Naming the RPG Races"
 date: "2017-11-20"
-series: creating-the-characters
 image: creating-characters-12.png
+series: creating-the-characters
+series_weight: 12
 weight: 12
-nextWeight: 13
 ---
 
 The playable races of One Shot RPG are finally given a proper name. The names adhere to a set of requirements designed to get players into the game faster and to prevent confusion at the table.<!--more-->

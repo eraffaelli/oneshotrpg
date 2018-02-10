@@ -1,6 +1,11 @@
 baseURL = "https://oneshotrpg.com/"
 languageCode = "en-us"
 title = "One Shot RPG"
-disableKinds = ["taxonomy","taxonomyTerm"]
 Paginate = 12
 staticDir = ["static", "static_images"]
+
+# Turn off taxonomy kinds, but still use taxonomies
+# Nested section's _index.md is better for URL structure
+disableKinds = ["taxonomy","taxonomyTerm"]
+[taxonomies]
+  series = "series"

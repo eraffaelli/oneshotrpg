@@ -1,10 +1,10 @@
 ---
 title: "Goals for Creating a One Shot RPG Adventure"
 date: "2017-12-03"
-series: creating-an-adventure
 image: placeholder-blog-image-1.png
+series: creating-an-adventure
+series_weight: 1
 weight: 1
-nextWeight: 2
 ---
 
 The goals for the first One Shot RPG adventure focus on accessibility, keeping the session fun, making repeat playthroughs interesting, and providing a sense of danger to the story.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "Sci-Fi Character Abilities and Weaponry"
 date: "2017-11-11"
-series: creating-the-characters
 image: creating-characters-5.png
+series: creating-the-characters
+series_weight: 5
 weight: 5
-nextWeight: 6
 ---
 
 Sci-fi and horror tabletop RPG settings sit on a sliding scale of realism versus fantasy. Each side of the scale brings its own set of benefits and drawbacks to the setting. Deciding where One Shot RPG falls will affect how the characters and monsters look and play.<!--more-->

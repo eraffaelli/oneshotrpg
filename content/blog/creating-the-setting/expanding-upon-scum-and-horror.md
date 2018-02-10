@@ -1,10 +1,10 @@
 ---
 title: "Expanding Upon Scum and Horror"
 date: "2017-10-28"
-series: creating-the-setting
 image: creating-setting-7.png
+series: creating-the-setting
+series_weight: 7
 weight: 7
-nextWeight: 8
 ---
 
 The world of One Shot RPG is filled with monsters. Cosmic horrors have invaded the solar system, threatening all. There’s a mysterious substance, scum, that has the ability to transform individuals into twisted beings. The player characters have decided to deal with the scummed, but their options aren't black and white.<!--more-->

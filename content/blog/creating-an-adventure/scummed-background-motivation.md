@@ -1,10 +1,10 @@
 ---
 title: "The Scummed Background and Motivation"
 date: "2017-12-15"
-series: creating-an-adventure
 image: placeholder-blog-image-2.png
+series: creating-an-adventure
+series_weight: 7
 weight: 7
-nextWeight: 8
 ---
 
 The first scummed suffered hardship and a traumatic experience as a child, and now she’s out to make the world a better place. But in her mind, the way to accomplish her goal involves drastic actions that puts many people in danger.<!--more-->

@@ -1,5 +1,5 @@
-{{ $thisPermalink := .RelPermalink }}
 {{ if isset .Params "series" }}
+{{ $thisPermalink := .RelPermalink }}
   <aside class="series-callout">
     <h3 class="h5">
       Series:
@@ -7,7 +7,7 @@
     </h3>
     <nav>
       <ol class="series-callout__list">
-        {{ range (where .Site.Pages "Params.series" .Params.series).ByParam "series_weight" }}
+        {{ range (index .Site.Taxonomies.series .Params.series) }}
           <li class="series-callout__list__item">
             {{ if eq .RelPermalink $thisPermalink }}
               <strong>

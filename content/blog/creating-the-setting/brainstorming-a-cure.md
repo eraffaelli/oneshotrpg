@@ -1,10 +1,10 @@
 ---
 title: "Brainstorming a Cure For Scum"
 date: "2017-10-29"
-series: creating-the-setting
 image: creating-setting-8.png
+series: creating-the-setting
+series_weight: 8
 weight: 8
-nextWeight: 9
 ---
 
 By approaching a brainstorming session with a topic and goal in mind, I can create a cure for scum that has balanced pros and cons. This will provide interesting choices for the players, and will add drama to the story.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "Splitting the One Shot RPG into Parts"
 date: "2017-12-09"
-series: creating-an-adventure
 image: placeholder-blog-image-2.png
+series: creating-an-adventure
+series_weight: 2
 weight: 2
-nextWeight: 3
 ---
 
 This article discusses how to get started creating an RPG one shot by breaking it up into multiple parts during design.<!--more-->

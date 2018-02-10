@@ -1,10 +1,10 @@
 ---
 title: "The Hunter Premade RPG Character Prompt"
 date: "2017-11-24"
-series: creating-the-characters
 image: creating-characters-15.png
+series: creating-the-characters
+series_weight: 15
 weight: 15
-nextWeight: 16
 ---
 
 Under her hooded shawl lies a chimera with the head and legs of a bird. The hunter stalks her prey with her vicious, venom-coated claws.<!--more-->

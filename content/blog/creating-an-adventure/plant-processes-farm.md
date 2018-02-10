@@ -1,10 +1,10 @@
 ---
 title: "Automated Plant Processes on the Farm"
 date: "2017-12-17"
-series: creating-an-adventure
 image: placeholder-blog-image-5.png
+series: creating-an-adventure
+series_weight: 10
 weight: 10
-nextWeight: 11
 ---
 
 The farm of the future utilizes many closed, automated systems to grow the most product for the highest profit margin. The farm can quickly change the food being grown to meet shifting local market demand.<!--more-->

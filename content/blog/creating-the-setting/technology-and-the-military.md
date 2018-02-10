@@ -1,10 +1,10 @@
 ---
 title: "Technology and the Military"
 date: "2017-10-30"
-series: creating-the-setting
 image: creating-setting-9.png
+series: creating-the-setting
+series_weight: 9
 weight: 9
-nextWeight: 10
 ---
 
 Set in our future, the RPG game setting features practical spaceships and a large network of communications. A military alliance has formed between the three planets with their sights set on claiming warp technology as their own.<!--more-->

@@ -1,10 +1,10 @@
 ---
 title: "Gameplay and Narrative Goals for RPG Characters"
 date: "2017-11-04"
-series: creating-the-characters
 image: creating-characters-1.png
+series: creating-the-characters
+series_weight: 1
 weight: 1
-nextWeight: 2
 ---
 
 Characters in One Shot RPG exist in two worlds: gameplay and narrative. They interact with game mechanics and have to fit into a balanced party. The characters exist in a sci-fi and horror setting, where they need differing motivations, personalities, and backgrounds. Both of these aspects have to be considered when creating a cast of playable characters.<!--more-->
