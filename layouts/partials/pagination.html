@@ -1,5 +1,5 @@
 {{ $pag := $.Paginator }}
-<nav class="d-flex justify-content-around mt-3 pagination-container">
+<nav class="d-flex justify-content-around pagination-container">
   {{ if $pag.HasPrev }}
     <a href="{{ $pag.Prev.URL }}" class=" pagination-link"><span class="h4">&leftarrow; Previous Page</span></a>
   {{ end }}

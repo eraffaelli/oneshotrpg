@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="" lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -26,6 +26,10 @@
 
         <link rel="stylesheet" href="/css/main.css">
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
         {{ block "head" . }}
           <!-- The part of the page that begins to differ between templates -->
         {{ end }}
@@ -33,26 +37,32 @@
     <body>
 
       <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark d-block d-md-flex flex-md-wrap">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="/">One Shot RPG</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/creating-an-adventure/">Creating the RPG One Shot</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/creating-the-characters/">Creating the Characters</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/creating-the-setting/">Creating the Setting</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 flex-nowrap" action="/search/" method="GET">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" name="q">
-            <button class="btn btn-outline-light ml-2 ml-md-0" type="submit">Search</button>
-          </form>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarWorldbuilding" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Worldbuilding
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarWorldbuilding">
+                  <a class="dropdown-item" href="/blog/creating-the-characters/">Creating the Characters</a>
+                  <a class="dropdown-item" href="/blog/creating-the-setting/">Creating the Setting</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-1 flex-nowrap" action="/search/" method="GET">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" name="q">
+              <button class="btn btn-outline-light ml-2 ml-md-0" type="submit">Search</button>
+            </form>
+          </div>
         </nav>
       </header>
 
@@ -60,7 +70,7 @@
         <!-- The part of the page that begins to differ between templates -->
       {{ end }}
 
-      <main class="mt-4">
+      <main>
         {{ block "wrapper-main-start" . }}
           <div class="container">
         {{ end }}
@@ -83,7 +93,7 @@
         {{ end }}
       </main>
 
-      <footer class="mt-5 py-5">
+      <footer>
         <div class="container">
           &copy;2017-{{ now.Format "2006" }} One Shot RPG/<a href="https://lfodlfod.com/">Little Feet On Ducks</a><br>
           <span class="small">The content of this site is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a><br>
