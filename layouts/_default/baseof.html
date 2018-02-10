@@ -61,8 +61,25 @@
       {{ end }}
 
       <main class="mt-4">
-        {{ block "main" . }}
-          <!-- The part of the page that begins to differ between templates -->
+        {{ block "wrapper-main-start" . }}
+          <div class="container">
+        {{ end }}
+          {{ if not (isset .Params "hide_page_title") }}
+            <div class="page-title">
+              {{ block "breadcrumbs" . }}
+                <!-- The part of the page that begins to differ between templates -->
+              {{ end }}
+              {{ block "page-title" . }}
+                <h1 class="page-title__title">{{ .Title }}</h1>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          {{ block "main" . }}
+            <!-- The part of the page that begins to differ between templates -->
+          {{ end }}
+        {{ block "wrapper-main-end" . }}
+          </div>
         {{ end }}
       </main>
 

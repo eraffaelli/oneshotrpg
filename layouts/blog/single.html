@@ -66,55 +66,56 @@
 }
 </script>
 {{ end }}
-{{ define "main" }}
+{{ define "breadcrumbs" }}
+  <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb small">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
+      {{ if isset .Params "series" }}
+        {{ with .Site.GetPage "section" "blog" .Params.series }}
+          <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  </nav>
+{{ end }}
+{{ define "wrapper-main-start" }}
   <article class="article container">
-    <section class="article__title__container">
-      <div class="page-title">
-        <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
-          <ol class="breadcrumb small">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
-            {{ if isset .Params "series" }}
-              {{ with .Site.GetPage "section" "blog" .Params.series }}
-                <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-              {{ end }}
-            {{ end }}
-          </ol>
-        </nav>
-        <h1 class="page-title__title article__title">{{ .Title }}</h1>
-      </div>
-    </section>
-    <div class="row">
-      <div class="col-lg-7">
-        <section class="article__content">
-          {{ if isset .Params "image" }}
-            <figure class="figure article__featured-image">
-              <img
-                srcset="/img/half/{{ .Params.image }} 400w,
-                  /img/full/{{ .Params.image }} 800w"
-                sizes="(max-width: 767px) 400px,
-                  800px"
-                src="/img/full/{{ .Params.image }}"
-                class="figure-img img-fluid"
-                alt="{{ .Title }}" />
-            </figure>
-          {{ end }}
-
-          {{ .Content }}
-        </section>
-
-        {{ partial "next-in-series.html" . }}
-      </div>
-      <aside class="sidebar col-lg-5">
-        <aside class="font-italic">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
-
-        {{ if .TableOfContents }}
-          <aside class="d-none d-lg-block">{{ partial "table-of-contents.html" . }}</aside>
+{{ end }}
+{{ define "wrapper-main-end" }}
+  </article>
+{{ end }}
+{{ define "main" }}
+  <div class="row">
+    <div class="col-lg-7">
+      <section class="article__content">
+        {{ if isset .Params "image" }}
+          <figure class="figure article__featured-image">
+            <img
+              srcset="/img/half/{{ .Params.image }} 400w,
+                /img/full/{{ .Params.image }} 800w"
+              sizes="(max-width: 767px) 400px,
+                800px"
+              src="/img/full/{{ .Params.image }}"
+              class="figure-img img-fluid"
+              alt="{{ .Title }}" />
+          </figure>
         {{ end }}
 
-        {{ partial "in-series.html" . }}
+        {{ .Content }}
+      </section>
 
-      </aside>
+      {{ partial "next-in-series.html" . }}
     </div>
-  </article>
+    <aside class="sidebar col-lg-5">
+      <aside class="font-italic">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
+
+      {{ if .TableOfContents }}
+        <aside class="d-none d-lg-block">{{ partial "table-of-contents.html" . }}</aside>
+      {{ end }}
+
+      {{ partial "in-series.html" . }}
+
+    </aside>
+  </div>
 {{ end }}
