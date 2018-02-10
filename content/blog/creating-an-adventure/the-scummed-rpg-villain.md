@@ -1,7 +1,7 @@
 ---
 title: "The Scummed Character Brief"
 date: "2017-12-15"
-image: placeholder-blog-image-4.png
+image: creating-the-adventure-9.png
 series: creating-an-adventure
 series_weight: 9
 weight: 9

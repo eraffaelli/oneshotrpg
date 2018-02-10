@@ -1,7 +1,7 @@
 ---
 title: "Fleshing out An RPG One Shot Idea"
 date: "2017-12-12"
-image: placeholder-blog-image-4.png
+image: creating-the-adventure-4.png
 series: creating-an-adventure
 series_weight: 4
 weight: 4

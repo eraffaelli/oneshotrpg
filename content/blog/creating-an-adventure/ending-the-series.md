@@ -1,7 +1,7 @@
 ---
 title: "Ending the Series: A Shift In Focus"
 date: "2018-02-03"
-image: placeholder-blog-image-3.png
+image: creating-the-adventure-13.png
 series: creating-an-adventure
 series_weight: 13
 weight: 13

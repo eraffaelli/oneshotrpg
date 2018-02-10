@@ -1,7 +1,7 @@
 ---
 title: "Creating the RPG Encounter Flow"
 date: "2017-12-20"
-image: placeholder-blog-image-2.png
+image: creating-the-adventure-12.png
 series: creating-an-adventure
 series_weight: 12
 weight: 12

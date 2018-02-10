@@ -1,7 +1,7 @@
 ---
 title: "Animal Production and Administration on the Farm"
 date: "2017-12-17"
-image: placeholder-blog-image-1.png
+image: creating-the-adventure-11.png
 series: creating-an-adventure
 series_weight: 11
 weight: 11

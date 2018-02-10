@@ -1,7 +1,7 @@
 ---
 title: "The Scummed Background and Motivation"
 date: "2017-12-15"
-image: placeholder-blog-image-2.png
+image: creating-the-adventure-7.png
 series: creating-an-adventure
 series_weight: 7
 weight: 7

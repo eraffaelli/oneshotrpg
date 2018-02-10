@@ -1,7 +1,7 @@
 ---
 title: "Automated Plant Processes on the Farm"
 date: "2017-12-17"
-image: placeholder-blog-image-5.png
+image: creating-the-adventure-10.png
 series: creating-an-adventure
 series_weight: 10
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: "The Scummed Abilities"
 date: "2017-12-15"
-image: placeholder-blog-image-3.png
+image: creating-the-adventure-8.png
 series: creating-an-adventure
 series_weight: 8
 weight: 8

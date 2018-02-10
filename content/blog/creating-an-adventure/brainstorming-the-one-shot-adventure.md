@@ -1,7 +1,7 @@
 ---
-title: "Brainstorming what the RPG One Shot is About"
+title: "Brainstorming What the RPG One Shot is About"
 date: "2017-12-11"
-image: placeholder-blog-image-3.png
+image: creating-the-adventure-3.png
 series: creating-an-adventure
 series_weight: 3
 weight: 3

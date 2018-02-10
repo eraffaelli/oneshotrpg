@@ -1,7 +1,7 @@
 ---
 title: "Picking the First One Shot RPG"
 date: "2017-12-13"
-image: placeholder-blog-image-1.png
+image: creating-the-adventure-6.png
 series: creating-an-adventure
 series_weight: 6
 weight: 6
