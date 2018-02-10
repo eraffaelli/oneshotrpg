@@ -1,4 +1,4 @@
-<article class="article-grid__article col-lg-6">
+<article class="article-grid__article col-lg-6 mb-2">
   {{ if .Params.image }}
     <figure class="figure article-grid__featured-image">
       <a href="{{ .RelPermalink }}">
@@ -15,7 +15,7 @@
   {{ end }}
 
   <h3 class="article-grid__title">
-    <a href="{{ .RelPermalink }}" class="color-inherit">
+    <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h3>

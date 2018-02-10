@@ -6025,3 +6025,45 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+
+a {
+  text-decoration: underline; }
+
+.navbar a {
+  text-decoration: none; }
+
+a.btn {
+  text-decoration: none; }
+
+.table-of-contents > nav > ul {
+  list-style-type: none;
+  padding-left: 0; }
+  .table-of-contents > nav > ul > li > ul {
+    list-style-type: upper-roman; }
+    .table-of-contents > nav > ul > li > ul ul {
+      list-style-type: lower-roman; }
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0; }
+
+footer {
+  background-color: #e9ecef; }
+
+.cse .gsc-control-cse, .gsc-control-cse {
+  padding: 0 !important; }
+
+.gcsc-branding {
+  line-height: 1.2; }
+
+body .gsc-webResult.gsc-result {
+  margin-bottom: 20px; }
+
+.gsc-result .gs-title {
+  line-height: 1; }
+
+.gs-snippet {
+  line-height: 1.2;
+  padding-left: 8px;
+  padding-right: 8px; }

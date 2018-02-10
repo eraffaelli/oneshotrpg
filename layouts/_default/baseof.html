@@ -70,12 +70,12 @@
         <!-- The part of the page that begins to differ between templates -->
       {{ end }}
 
-      <main>
+      <main class="my-4">
         {{ block "wrapper-main-start" . }}
           <div class="container">
         {{ end }}
           {{ if not (isset .Params "hide_page_title") }}
-            <div class="page-title">
+            <div class="page-title mb-4">
               {{ block "breadcrumbs" . }}
                 <!-- The part of the page that begins to differ between templates -->
               {{ end }}
@@ -93,7 +93,7 @@
         {{ end }}
       </main>
 
-      <footer>
+      <footer class="mt-5 py-4">
         <div class="container">
           &copy;2017-{{ now.Format "2006" }} One Shot RPG/<a href="https://lfodlfod.com/">Little Feet On Ducks</a><br>
           <span class="small">The content of this site is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a><br>

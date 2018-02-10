@@ -1,9 +1,9 @@
 {{ $pag := $.Paginator }}
 <nav class="d-flex justify-content-around pagination-container">
   {{ if $pag.HasPrev }}
-    <a href="{{ $pag.Prev.URL }}" class=" pagination-link"><span class="h4">&leftarrow; Previous Page</span></a>
+    <a href="{{ $pag.Prev.URL }}" class="btn btn-primary pagination-link">&leftarrow; Previous Page</a>
   {{ end }}
   {{ if $pag.HasNext }}
-    <a href="{{ $pag.Next.URL }}" class="pagination-link"><span class="h4">Next Page &rightarrow;</span></a>
+    <a href="{{ $pag.Next.URL }}" class="btn btn-primary pagination-link">Next Page &rightarrow;</a>
   {{ end }}
 </nav>

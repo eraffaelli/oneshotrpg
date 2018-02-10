@@ -1,9 +1,9 @@
 {{ if isset .Params "series" }}
 {{ $thisPermalink := .RelPermalink }}
-  <aside class="series-callout">
+  <aside class="series-callout mb-2">
     <h3 class="h5">
       Series:
-      {{ with .Site.GetPage "section" "blog" .Params.series }}<a href="{{ .RelPermalink }}" class="color-inherit">{{ .Title }}</a>{{ end }}
+      {{ with .Site.GetPage "section" "blog" .Params.series }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
     </h3>
     <nav>
       <ol class="series-callout__list">

@@ -2,8 +2,9 @@
   {{ $nextWeight := (add .Params.series_weight 1) }}
   {{ range (index .Site.Taxonomies.series .Params.series) }}
     {{ if eq .Params.series_weight $nextWeight }}
-    <aside>
-      <p><span class="h5">Read the next article in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+    <aside class="mt-4">
+        <span class="h5">Read the next article in the series:</span><br>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </aside>
     {{ end }}
   {{ end }}
