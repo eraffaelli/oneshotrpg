@@ -1,12 +1,5 @@
 {{ define "breadcrumbs" }}
-  <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
-    <ol class="breadcrumb small">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      {{ if eq (len .Sections) 0 }}
-        <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
-      {{ end }}
-    </ol>
-  </nav>
+  {{ partial "breadcrumbs-list.html" . }}
 {{ end }}
 {{ define "main" }}
   {{ .Content }}

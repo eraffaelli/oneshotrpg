@@ -1,49 +1,10 @@
 {{ define "head" }}
-{{ partial "structured-data/og-post.html" . }}
-{{ partial "structured-data/schema-article-post.html" . }}
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "{{ "/tutorial/" | absURL }}",
-        "name": "Tutorials"
-      }
-    }
-    {{ if isset .Params "series" }}
-      ,
-      {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        {{ with .Site.GetPage "section" "tutorial" .Params.series }}
-          "@id": "{{ .Permalink }}",
-          "name": "{{ .Title }}"
-        {{ end }}
-        }
-      }
-    {{ end }}
-  ]
-}
-</script>
+  {{ partial "structured-data/og-post.html" . }}
+  {{ partial "structured-data/schema-article-post.html" . }}
+  {{ partial "structured-data/schema-breadcrumbs-post.html" . }}
 {{ end }}
 {{ define "breadcrumbs" }}
-  <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
-    <ol class="breadcrumb small">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item"><a href="/tutorial/">Tutorials</a></li>
-      {{ if isset .Params "series" }}
-        {{ with .Site.GetPage "section" "tutorial" .Params.series }}
-          <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      {{ end }}
-    </ol>
-  </nav>
+  {{ partial "breadcrumbs-post.html" . }}
 {{ end }}
 {{ define "wrapper-main-start" }}
   <article class="article container">

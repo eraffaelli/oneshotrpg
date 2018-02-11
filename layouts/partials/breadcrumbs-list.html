@@ -1,0 +1,10 @@
+<nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb small">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    {{ if eq (len .Sections) 0 }}
+      {{ with .Site.GetPage "section" .Section }}
+        <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ol>
+</nav>
