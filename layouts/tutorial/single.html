@@ -1,0 +1,121 @@
+{{ define "head" }}
+<meta property="og:url"                content="{{ .Permalink }}" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="{{ .Title }}" />
+<meta property="og:description"        content="{{ trim (.Summary | plainify) "\n" }}" />
+{{ if .Params.image }}
+<meta property="og:image"              content="{{ "/" | absURL }}img/full/{{ .Params.image }}" />
+<meta property="og:image:width"        content="800" />
+<meta property="og:image:height"       content="450" />
+{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "author": {
+  {{ partial "structured-data/organization.html" . }}
+  },
+  "publisher": {
+  {{ partial "structured-data/organization-logo-object.html" . }}
+  },
+  "description": "{{ trim (.Summary | plainify) "\n" }}",
+  {{ if .Params.image }}
+  "image": [
+    "{{ "/" | absURL }}img/half/{{ .Params.image }}",
+    "{{ "/" | absURL }}img/full/{{ .Params.image }}"
+  ],
+  {{ end }}
+  "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",
+  "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "{{ "/tutorial/" | absURL }}",
+        "name": "Tutorials"
+      }
+    }
+    {{ if isset .Params "series" }}
+      ,
+      {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        {{ with .Site.GetPage "section" "tutorial" .Params.series }}
+          "@id": "{{ .Permalink }}",
+          "name": "{{ .Title }}"
+        {{ end }}
+        }
+      }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ define "breadcrumbs" }}
+  <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb small">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/tutorial/">Tutorials</a></li>
+      {{ if isset .Params "series" }}
+        {{ with .Site.GetPage "section" "tutorial" .Params.series }}
+          <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  </nav>
+{{ end }}
+{{ define "wrapper-main-start" }}
+  <article class="article container">
+{{ end }}
+{{ define "wrapper-main-end" }}
+  </article>
+{{ end }}
+{{ define "main" }}
+  <div class="row">
+    <div class="col-lg-7">
+      <section class="article__content">
+        {{ if isset .Params "image" }}
+          <figure class="figure article__featured-image">
+            <img
+              srcset="/img/half/{{ .Params.image }} 400w,
+                /img/full/{{ .Params.image }} 800w"
+              sizes="(max-width: 767px) 400px,
+                800px"
+              src="/img/full/{{ .Params.image }}"
+              class="figure-img img-fluid"
+              alt="{{ .Title }}" />
+          </figure>
+        {{ end }}
+
+        {{ .Content }}
+      </section>
+
+      {{ partial "next-in-series.html" . }}
+    </div>
+    <aside class="sidebar col-lg-5">
+      <aside class="font-italic mb-2">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
+
+      {{ if .TableOfContents }}
+        <aside class="d-none d-lg-block mb-2">{{ partial "table-of-contents.html" . }}</aside>
+      {{ end }}
+
+      {{ partial "in-series.html" . }}
+
+    </aside>
+  </div>
+{{ end }}

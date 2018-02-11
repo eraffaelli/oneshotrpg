@@ -1,0 +1,32 @@
+{{ define "breadcrumbs" }}
+  <nav class="page-title__breadcrumbs" aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb small">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      {{ if eq (len .Sections) 0 }}
+        <li class="breadcrumb-item"><a href="/tutorial/">Tutorials</a></li>
+      {{ end }}
+    </ol>
+  </nav>
+{{ end }}
+{{ define "main" }}
+  {{ .Content }}
+
+  {{ if gt (len .Sections) 0 }}
+  {{ $paginator := (.Paginate (where .Site.RegularPages.ByDate "Section" "tutorial").Reverse) }}
+
+  <div class="article-grid row">
+    {{ range $paginator.Pages }}
+      {{ partial "article-grid-item.html" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+
+  {{ else }}
+    <div class="article-grid row">
+      {{ range .Pages.Reverse }}
+        {{ partial "article-grid-item.html" . }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
