@@ -1,0 +1,9 @@
+<aside class="sidebar col-lg-5">
+  <aside class="font-italic mb-2">Posted on {{ .Date.Format "January 2, 2006" }}</aside>
+
+  {{ if .TableOfContents }}
+    <aside class="d-none d-lg-block mb-2">{{ partial "table-of-contents.html" . }}</aside>
+  {{ end }}
+
+  {{ partial "in-series.html" . }}
+</aside>
