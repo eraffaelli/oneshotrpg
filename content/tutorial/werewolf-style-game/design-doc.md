@@ -10,7 +10,7 @@ weight: 2
 The design doc for Office Party outlines the flow, mechanics, and the game’s thematics. The Werewolf style Godot game is designed to be played entirely on a phone’s touchscreen.<!--more-->
 
 ## Introducing Office Party
-The first game will be titled “Office Party.” It’s like [Werewolf](/tutorial/werewolf-style-game/introduction/) but set in the [world of One Shot RPG](/blog/creating-the-setting/).
+The first game will be titled “Office Party.” It’s like [Werewolf](/tutorial/werewolf-style-game/introduction/) but set in the [world of One Shot RPG](/blog/creating-the-setting/). Because the design document is living---it'll change as the game develops---below is only a snapshot. You can [read the latest version](https://github.com/oneshotrpg/office-party/blob/master/design-document.md) on GitHub.
 
 ## Premise
 As an employee of Space Vehicles Incorporated, you’re required to attend an annual office party at the regional HQ. After making an appearance, you decide to leave. But before you can reach the lift, the lights suddenly flicker off. When they come back on, there’s a body laying on the ground. There’s a scummed among the guests---a killer in disguise. Find out who the monster is, establish yourself as the leader, and convince the guests to agree with your accusations. Act fast, though, the scummed will kill again and the guests won’t wait around to be picked off.

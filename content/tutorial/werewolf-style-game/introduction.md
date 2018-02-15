@@ -27,5 +27,8 @@ This game development tutorial is not for newbies---but not for pros either. I a
 ## No Dogmatism
 I am not a professional game developer or designer---I’m a hobbyist. This tutorial covers how I approach specific problems, and it may not follow best practices. I'm learning as I go along. I hope that the reader understands _why_ I did something a certain way. Don’t take what I do as the be-all and end-all, and I’ll keep the dogmatism to a minimum.
 
+## Follow Along
+You can follow along with the game's development and suggest improvements at its [GitHub repo](https://github.com/oneshotrpg/office-party).
+
 ## The First Step
 The first step is to create the game's design document. The design document lays out the high level goals and features for the game, and even details some mechanics. The document is living, meaning that it’ll change as the game is developed. While an entire game can theoretically be designed beforehand on paper, playtesting always leads to early ideas being scrapped. Starting with a design doc gives the project a clear direction and organization structure, so it’s still worth the time investment.
