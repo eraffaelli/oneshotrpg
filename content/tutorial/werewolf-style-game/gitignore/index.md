@@ -1,7 +1,7 @@
 ---
 title: "Quick Tip: .gitignore for a Godot Game"
 date: "2018-02-14"
-image: placeholder-blog-image-3.png
+placeholder_image: placeholder-blog-image-3.png
 series: werewolf-style-game
 series_weight: 3
 weight: 3

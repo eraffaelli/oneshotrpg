@@ -14,11 +14,24 @@
   {{ partial "structured-data/organization-logo-object.html" . }}
   },
   "description": "{{ trim (.Summary | plainify) "\n" }}",
-  {{ if .Params.image }}
-  "image": [
-    "{{ "/" | absURL }}img/half/{{ .Params.image }}",
-    "{{ "/" | absURL }}img/full/{{ .Params.image }}"
-  ],
+  {{ if or (isset .Params "image") (isset .Params "placeholder_image") }}
+    {{ if isset .Params "image" }}
+      {{ $imagePath := .Params.image }}
+      {{ $featuredImage := .Resources.GetMatch $imagePath }}
+      {{ $.Scratch.Set "featuredImage" $featuredImage }}
+    {{ else }}
+      {{ $imagePath := .Params.placeholder_image }}
+      {{ $placeholderLibrary := .Site.GetPage "page" "placeholder" }}
+      {{ $featuredImage := $placeholderLibrary.Resources.GetMatch $imagePath }}
+      {{ $.Scratch.Set "featuredImage" $featuredImage }}
+    {{ end }}
+    {{ $featuredImage := $.Scratch.Get "featuredImage" }}
+    {{ $featuredImageFull := $featuredImage.Resize "800x" }}
+    {{ $featuredImageHalf := $featuredImage.Resize "400x" }}
+    "image": [
+      "{{ $featuredImageHalf.Permalink }}",
+      "{{ $featuredImageFull.Permalink }}"
+    ],
   {{ end }}
   "datePublished": "{{ .PublishDate | dateFormat "2006-01-02T15:04:05" }}",
   "dateModified": "{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}"

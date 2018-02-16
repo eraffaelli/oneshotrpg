@@ -1,7 +1,7 @@
 ---
 title: "Office Party Design Doc"
 date: "2018-02-13"
-image: placeholder-blog-image-2.png
+placeholder_image: placeholder-blog-image-2.png
 series: werewolf-style-game
 series_weight: 2
 weight: 2

@@ -1,0 +1,33 @@
+{{ if or (isset .Params "image") (isset .Params "placeholder_image") }}
+  {{ $linkToArticle := $.Scratch.Get "linkToArticle" }}
+  {{ if isset .Params "image" }}
+    {{ $imagePath := .Params.image }}
+    {{ $featuredImage := .Resources.GetMatch $imagePath }}
+    {{ $.Scratch.Set "featuredImage" $featuredImage }}
+  {{ else }}
+    {{ $imagePath := .Params.placeholder_image }}
+    {{ $placeholderLibrary := .Site.GetPage "page" "placeholder" }}
+    {{ $featuredImage := $placeholderLibrary.Resources.GetMatch $imagePath }}
+    {{ $.Scratch.Set "featuredImage" $featuredImage }}
+  {{ end }}
+
+  {{ $featuredImage := $.Scratch.Get "featuredImage" }}
+  {{ $featuredImageFull := $featuredImage.Resize "800x" }}
+  {{ $featuredImageHalf := $featuredImage.Resize "400x" }}
+  <figure class="figure featured-image-figure">
+    {{ if eq $linkToArticle true }}
+      <a href="{{ .RelPermalink }}" class="featured-image-link">
+    {{ end }}
+      <img
+        srcset="{{ $featuredImageHalf.RelPermalink }} 400w,
+          {{ $featuredImageFull.RelPermalink }} 800w"
+        sizes="(max-width: 767px) 400px,
+          800px"
+        src="{{ $featuredImageFull.RelPermalink }}"
+        class="figure-img img-fluid featured-image"
+        alt="Featured image for {{ .Title }}" />
+      {{ if eq $linkToArticle true }}
+        </a>
+      {{ end }}
+  </figure>
+{{ end }}

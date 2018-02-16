@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 date: "2018-02-10"
-image: placeholder-blog-image-1.png
+placeholder_image: placeholder-blog-image-1.png
 series: werewolf-style-game
 series_weight: 1
 weight: 1

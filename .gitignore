@@ -6,6 +6,3 @@ node_modules
 
 # Internal deploy tools
 deploy.sh
-
-# Symlinked image folder
-static_images

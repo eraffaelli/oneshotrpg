@@ -2,8 +2,20 @@
 <meta property="og:type"               content="article" />
 <meta property="og:title"              content="{{ .Title }}" />
 <meta property="og:description"        content="{{ trim (.Summary | plainify) "\n" }}" />
-{{ if .Params.image }}
-  <meta property="og:image"              content="{{ "/" | absURL }}img/full/{{ .Params.image }}" />
-  <meta property="og:image:width"        content="800" />
-  <meta property="og:image:height"       content="450" />
+{{ if or (isset .Params "image") (isset .Params "placeholder_image") }}
+  {{ if isset .Params "image" }}
+    {{ $imagePath := .Params.image }}
+    {{ $featuredImage := .Resources.GetMatch $imagePath }}
+    {{ $.Scratch.Set "featuredImage" $featuredImage }}
+  {{ else }}
+    {{ $imagePath := .Params.placeholder_image }}
+    {{ $placeholderLibrary := .Site.GetPage "page" "placeholder" }}
+    {{ $featuredImage := $placeholderLibrary.Resources.GetMatch $imagePath }}
+    {{ $.Scratch.Set "featuredImage" $featuredImage }}
+  {{ end }}
+  {{ $featuredImage := $.Scratch.Get "featuredImage" }}
+  {{ $featuredImageFull := $featuredImage.Resize "800x" }}
+    <meta property="og:image"              content="{{ $featuredImageFull.Permalink }}" />
+    <meta property="og:image:width"        content="800" />
+    <meta property="og:image:height"       content="450" />
 {{ end }}

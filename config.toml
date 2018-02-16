@@ -2,7 +2,7 @@ baseURL = "https://oneshotrpg.com/"
 languageCode = "en-us"
 title = "One Shot RPG"
 Paginate = 12
-staticDir = ["static", "static_images"]
+staticDir = ["static"]
 
 # Turn off taxonomy kinds, but still use taxonomies
 # Nested section's _index.md is better for URL structure
