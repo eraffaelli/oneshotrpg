@@ -12,9 +12,9 @@ Use the currently proposed Godot .gitignore from GitHub. However, this could lea
 ## What should go into my Godot game's .gitignore?
 Something that I've been having trouble finding an answer for is what to include in my `.gitignore`. Searching leads to more questions than answers such as [this gist](https://gist.github.com/marcosbitetti/6168a1490ded08197721a474dd9dd9e7), [this Reddit post](https://www.reddit.com/r/godot/comments/4efptm/which_files_should_be_included_in_the_gitignore/), and [this Q&A](https://godotengine.org/qa/22993/3-0-gitignore). The official template is currently being decided, with [this pull request](https://github.com/github/gitignore/pull/2546) as the current candidate, after [beating out this older one](https://github.com/github/gitignore/pull/2408).
 
-Let's take a look at that [current candidate](https://github.com/henriiquecampos/gitignore/blob/2c2e8f42477279727c551a558dc21614043a0a98/Godot.gitignore):
+Let's take a look at that [current .gitignore candidate](https://github.com/henriiquecampos/gitignore/blob/2c2e8f42477279727c551a558dc21614043a0a98/Godot.gitignore):
 
-```
+```txt
 .import/
 .mono/
 export_presets.cfg

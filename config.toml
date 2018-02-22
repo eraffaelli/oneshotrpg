@@ -4,6 +4,10 @@ title = "One Shot RPG"
 Paginate = 12
 staticDir = ["static"]
 
+# Code highlighting
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
 # Turn off taxonomy kinds, but still use taxonomies
 # Nested section's _index.md is better for URL structure
 disableKinds = ["taxonomy","taxonomyTerm"]

@@ -1,4 +1,5 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'vendor/syntax';
 
 a {
   text-decoration: underline;
@@ -8,6 +9,17 @@ a {
 }
 a.btn {
   text-decoration: none;
+}
+
+.chroma {
+  padding: .5em;
+
+  // Highlight shortcode moves the chroma around, copy its styles
+  margin-bottom: 1rem;
+  .lntable & {
+    //Then remove some styles when it's in the line number table
+    margin-bottom: 0;
+  }
 }
 
 .table-of-contents {
