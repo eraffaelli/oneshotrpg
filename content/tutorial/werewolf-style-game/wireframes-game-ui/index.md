@@ -15,19 +15,19 @@ When developing a game, starting with low-fidelity wireframes allows you to [mak
 In addition to laying out the game’s flow, you can also start evaluating the game’s user experience (UX) from the wireframes. Will the game’s interface be easy to use and understand? Will relevant mechanics be visible to the user? Questions such as those can be answered before a single line of code is written.
 
 ## The Game Screens
-{{< svg-figure src="wireframes.svg" alt="Wireframes of the game's main screens." >}}
+{{< figure-single-size src="wireframes.svg" href="wireframes.svg" alt="Wireframes of the game's main screens." >}}
 
 The first round of wireframes focus on the central game screens---the main screen, the interaction screen, and the log screen.
 
 ## The Main Screen and End Round Button
-{{< svg-figure src="main-screen.svg" alt="Wireframes of the game's main screen." width="280" >}}
+{{< figure-single-size src="main-screen.svg" href="main-screen.svg" alt="Wireframes of the game's main screen." width="280" >}}
 
 The main screen’s focus is to allow the player to see which NPCs are alive or dead. The player is presented with a grid of NPCs, and by tapping on one of them they’re taken to the interaction screen. At the bottom of each screen sits a status area that gives the player a hint at what to do; a button to view the log; and a button that ends the round and shows the remaining time.
 
 The decision to place these always available buttons at the bottom of the screen is intentional, it’s based on how we [hold our phones](https://alistapart.com/article/how-we-hold-our-gadgets). The thumb zone is the [physical space on our screens](https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/) that is the easiest to reach with our thumbs. These two diagrams from [Smashing Magazine](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/496f7bc0-4c6c-4159-b731-ec3adcf91105/thumb-zone-mapping-opt.png) and [A List Apart](https://alistapart.com/d/432/1.4-thumb-zone-2x.jpg) illustrate the concept. Because the user will be using these buttons a lot, especially the end round button, they should be placed in a spot that’s most accessible to our thumbs.
 
 ## The Interaction Screen
-{{< svg-figure src="interaction-screen.svg" alt="Wireframes of the game's interaction screen." width="280" >}}
+{{< figure-single-size src="interaction-screen.svg" href="interaction-screen.svg" alt="Wireframes of the game's interaction screen." width="280" >}}
 
 The interaction screen is designed to keep the user focused on the main mechanic of the game---interacting with NPCs. It provides an area to read the NPC’s dialogue and offers large buttons to perform the interactions. Notice how the buttons are stacked vertically on the left side of the screen. This is again due to the ease of access in the thumb zone from [this diagram](https://alistapart.com/d/432/1.4-thumb-zone-2x.jpg). The user will be spending most of their time using these buttons, so they should be easily accessible.
 
@@ -42,7 +42,7 @@ As stated before, the design document is living, meaning it’ll [change as the 
 I’ve also debated as to whether the icon acquisition should be automatic or not. Earlier versions of the game allowed players to voluntarily mark NPCs with generic icons, but the feature was hard to surface. My worry is that having the icons added automatically will take away some of the game’s strategy. Ultimately, I feel that because the [scummed isn’t set in stone](/tutorial/werewolf-style-game/design-doc/#that-means), that offering these icons for free won’t make the game any less fun.
 
 ## Log Screen
-{{< svg-figure src="log-screen.svg" alt="Wireframes of the game's main screen." width="280" >}}
+{{< figure-single-size src="log-screen.svg" href="log-screen.svg" alt="Wireframes of the game's main screen." width="280" >}}
 
 The log screen is designed to show the information that the player learned, in order to make it feel like the clues matter. The log keeps ~20 of the latest interactions and allows the user to scroll through them. Notice here how the NPC portraits all line up on the left side of the screen. I could have alternated each row: portrait on the left, text on the right followed by portrait on the right, text on the left. However the decision to line them up was intentional---because [zigzagging the text and portrait makes it harder to scan](https://www.nngroup.com/articles/zigzag-page-layout/). I want this information easily scannable. The entire feature is a facade so the less time the player spends on this screen the better.
 

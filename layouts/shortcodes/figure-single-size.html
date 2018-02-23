@@ -1,10 +1,10 @@
 <figure class="figure d-block">
-  <a href="{{ .Get "src" }}">
+  {{ with .Get "href"}}<a href="{{.}}">{{ end }}
     <img
-      src="{{ .Get "src" }}"
+      {{ with .Get "src" }}src="{{.}}"{{ end }}
       alt="{{ .Get "alt" }}"
       class="figure-img img-fluid d-block"
       {{ with .Get "width"}} width="{{.}}"{{ end }}
     >
-  </a>
+  {{ with .Get "href"}}</a>{{ end }}
 </figure>
