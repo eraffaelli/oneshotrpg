@@ -1,10 +1,12 @@
-<figure class="figure d-block">
-  {{ with .Get "href"}}<a href="{{.}}">{{ end }}
-    <img
-      {{ with .Get "src" }}src="{{.}}"{{ end }}
-      alt="{{ .Get "alt" }}"
-      class="figure-img img-fluid d-block"
-      {{ with .Get "width"}} width="{{.}}"{{ end }}
-    >
-  {{ with .Get "href"}}</a>{{ end }}
-</figure>
+<div class="text-center">
+  <figure class="figure">
+    {{ with .Get "href"}}<a href="{{.}}">{{ end }}
+      <img
+        {{ with .Get "src" }}src="{{.}}"{{ end }}
+        alt="{{ .Get "alt" }}"
+        class="figure-img img-fluid"
+        {{ with .Get "width"}} width="{{.}}"{{ end }}
+      >
+    {{ with .Get "href"}}</a>{{ end }}
+  </figure>
+</div>

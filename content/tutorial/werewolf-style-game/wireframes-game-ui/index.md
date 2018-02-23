@@ -15,7 +15,7 @@ When developing a game, starting with low-fidelity wireframes allows you to [mak
 In addition to laying out the game’s flow, you can also start evaluating the game’s user experience (UX) from the wireframes. Will the game’s interface be easy to use and understand? Will relevant mechanics be visible to the user? Questions such as those can be answered before a single line of code is written.
 
 ## The Game Screens
-{{< figure-single-size src="wireframes.svg" href="wireframes.svg" alt="Wireframes of the game's main screens." >}}
+{{< figure-single-size src="wireframes.svg" href="wireframes.svg" alt="Wireframes of the game's main screens." width="1165" >}}
 
 The first round of wireframes focus on the central game screens---the main screen, the interaction screen, and the log screen.
 

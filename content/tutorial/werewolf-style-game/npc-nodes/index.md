@@ -9,7 +9,7 @@ weight: 5
 
 This lesson covers the nodes related to NPCs and their functionality. The parent NPC node, generator, UI, portrait, and personality are discussed.<!--more-->
 
-_This lesson covers up to commit [0dc7fc0](https://github.com/oneshotrpg/office-party/tree/0dc7fc0b69eb6c300be311ce9ea49ee7e4108f47)._
+_This lesson covers the game up to commit [0dc7fc0](https://github.com/oneshotrpg/office-party/tree/0dc7fc0b69eb6c300be311ce9ea49ee7e4108f47)._
 
 ## Starting Out Small with NPCs
 Instead of starting the tutorial with how to set up a project, or even with the main scene, I’m going to start out with the NPC. Remember that this [tutorial is not for those completely new to Godot](/tutorial/werewolf-style-game/introduction/#who-s-this-tutorial-for) so I won't start with the basics. NPCs are the building blocks of the game and have the most functionality attached. The player can interact with them, gain relationship with them, [create their own stories about them](/tutorial/werewolf-style-game/design-doc/#what-s-fun), and vote to kill them. It makes sense, then, to start developing the NPC node before other areas of the project.

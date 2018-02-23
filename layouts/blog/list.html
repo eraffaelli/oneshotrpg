@@ -17,7 +17,7 @@
 
   {{ else }}
     <div class="article-grid row">
-      {{ range .Pages.Reverse }}
+      {{ range .Pages }}
         {{ partial "article-grid-item.html" . }}
       {{ end }}
     </div>
