@@ -76,7 +76,7 @@ func set_name(name):
 
 ```
 
-The [UI script](https://github.com/oneshotrpg/office-party/tree/0dc7fc0b69eb6c300be311ce9ea49ee7e4108f47/game/npc/NpcUI.gd) controls the display, such as hiding and showing the dead icon and changing the name label. It doesn’t know about the parent NPC properties, such as the personality or relationship, it only cares about displaying something on the screen.
+The [NpcUI script](https://github.com/oneshotrpg/office-party/tree/0dc7fc0b69eb6c300be311ce9ea49ee7e4108f47/game/npc/NpcUI.gd) controls the display, such as hiding and showing the dead icon and changing the name label. It doesn’t know about the parent NPC properties, such as the personality or relationship, it only cares about displaying something on the screen.
 
 ### NPC Portrait Node
 {{< figure-single-size src="npc-portrait-in-log-screen.png" alt="An NPC portrait in the log screen." >}}
