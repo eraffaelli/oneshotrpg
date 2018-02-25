@@ -21,6 +21,7 @@ get_node("C/Gamma/One")
 Both methods have fuzzy autocompletion. This means that to select the node `C/Gamma/One`, you only need to type `get_node("One` or `$One` and then press enter. This can be seen in the below screenshots:
 
 {{< figure-single-size src="fuzzy-get-node.png" alt="Screenshot of get_node() fuzzy autocompletion in the Godot editor." >}}
+
 {{< figure-single-size src="fuzzy-dollar-sign.png" alt="Screenshot of $ fuzzy autocompletion in the Godot editor." >}}
 
 ## Which One Should I Use?
