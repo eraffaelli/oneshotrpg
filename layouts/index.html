@@ -35,19 +35,6 @@
 {{ define "main" }}
 
   <div>
-    <h2>Creating a Werewolf Style Game in Godot 3</h2>
-    <p>Learn how to develop a Werewolf or Mafia style game in Godot 3.</p>
-    <div class="article-grid row mt-4">
-      {{ range first 4 (index .Site.Taxonomies.series "werewolf-style-game").Pages.Reverse }}
-        {{ partial "article-grid-item.html" . }}
-      {{ end }}
-    </div>
-    <p class="text-center mt-2">
-      <a href="/tutorial/werewolf-style-game/" class="btn btn-primary">Read the entire tutorial</a>
-    </p>
-  </div>
-
-  <div class="mt-5">
     <h2>How to Create Premade RPG Characters</h2>
     <p>Read about the decisions and planning that go into creating a cast of premade sci-fi and horror RPG characters.</p>
     <div class="article-grid row mt-4">
