@@ -1,0 +1,23 @@
+{{ define "breadcrumbs" }}
+  {{ partial "breadcrumbs-list.html" . }}
+{{ end }}
+{{ define "main" }}
+  {{ .Content }}
+
+  {{ $paginator := (.Paginate (where .Site.RegularPages.ByDate "Section" "status-update").Reverse) }}
+
+  <div class="status-update-list">
+    {{ range $paginator.Pages }}
+      <article class="status-update-list-item status-update row">
+        <div class="col-lg-7">
+          {{ .Content }}
+        </div>
+        <aside class="col-lg-5 status-update-aside">
+          Posted on <a href="{{ .RelPermalink }}">{{ .Date.Format "January 2, 2006" }}</a>
+        </aside>
+      </article>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+{{ end }}

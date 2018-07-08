@@ -37,6 +37,21 @@ a.btn {
   }
 }
 
+// Status Updates
+.status-update-list-item {
+  & + & {
+    margin-top: $spacer;
+    padding-top: $spacer;
+    border-top: $border-width solid $border-color !important;
+  }
+}
+.status-update-aside {
+  font-style: italic;
+  @include media-breakpoint-up(lg) {
+    text-align: right;
+  }
+}
+
 .breadcrumb {
   background-color: transparent;
   padding: 0;
@@ -44,7 +59,7 @@ a.btn {
 }
 
 .figure-img {
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 footer {

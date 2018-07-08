@@ -6611,6 +6611,17 @@ a.btn {
     .table-of-contents > nav > ul > li > ul ul {
       list-style-type: lower-roman; }
 
+.status-update-list-item + .status-update-list-item {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6 !important; }
+
+.status-update-aside {
+  font-style: italic; }
+  @media (min-width: 992px) {
+    .status-update-aside {
+      text-align: right; } }
+
 .breadcrumb {
   background-color: transparent;
   padding: 0;

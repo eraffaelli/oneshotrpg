@@ -1,0 +1,25 @@
+{{ define "head" }}
+  {{/* Status updates not designed to share, so leave out most structured data. */}}
+  {{ partial "structured-data/schema-breadcrumbs-post.html" . }}
+{{ end }}
+{{ define "breadcrumbs" }}
+  {{ partial "breadcrumbs-post.html" . }}
+{{ end }}
+{{ define "wrapper-main-start" }}
+  <article class="status-update container">
+{{ end }}
+{{ define "wrapper-main-end" }}
+  </article>
+{{ end }}
+{{ define "main" }}
+  {{ .Content }}
+
+  <nav class="mt-4 d-flex justify-content-around pagination-container">
+    {{ if .PrevInSection }}
+      <a href="{{ .PrevInSection.RelPermalink }}" class="btn btn-primary pagination-link">&leftarrow; Older Update</a>
+    {{ end }}
+    {{ if .NextInSection }}
+      <a href="{{ .NextInSection.RelPermalink }}" class="btn btn-primary pagination-link">Newer Update &rightarrow;</a>
+    {{ end }}
+  </nav>
+{{ end }}
