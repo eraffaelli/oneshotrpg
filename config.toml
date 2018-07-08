@@ -1,6 +1,7 @@
 baseURL = "https://oneshotrpg.com/"
 languageCode = "en-us"
 title = "One Shot RPG"
+googleAnalytics = "UA-97045891-3"
 Paginate = 12
 staticDir = ["static"]
 
@@ -13,3 +14,26 @@ pygmentsCodefences = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 [taxonomies]
   series = "series"
+
+# Privacy
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
