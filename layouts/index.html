@@ -26,8 +26,8 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">One Shot RPG</h1>
-      <h2 class="h2">Short Sci-Fi and Horror RPG Adventures</h2>
-      <p class="lead">One Shot RPG is a line of short role playing game adventures set in a sci-fi and horror setting. Players choose from premade characters to confront the monster of the week. Each adventure is playable from start to finish in a single game night. The setting, characters, and first adventure are currently in development.</p>
+      <h2 class="h2">Sci-Fi Horror JRPG with Point and Click Elements</h2>
+      <p class="lead">One Shot RPG a role playing game set in a sci-fi and horror setting. Explore your surroundings point-and-click-style while overcoming challenging JRPG battles. The game is designed to respect your time and is currently in development using <a href="https://godotengine.org/">Godot</a>.</p>
     </div>
   </div>
 {{ end }}
@@ -35,28 +35,77 @@
 {{ define "main" }}
 
   <div>
-    <h2>How to Create Premade RPG Characters</h2>
-    <p>Read about the decisions and planning that go into creating a cast of premade sci-fi and horror RPG characters.</p>
-    <div class="article-grid row mt-4">
-      {{ range first 4 (index .Site.Taxonomies.series "creating-the-characters").Pages.Reverse }}
-        {{ partial "article-grid-item.html" . }}
-      {{ end }}
-    </div>
-    <p class="text-center mt-2">
-      <a href="/blog/creating-the-characters/" class="btn btn-primary">Read about creating premade RPG characters</a>
-    </p>
+    <h2>Planned Game Features</h2>
+    <h3>A Sci-Fi Horror Setting</h3>
+    <p>A scummed, a person who's been twisted into a super-powered monster, is terrorizing a local farm. Players assume the role of a group of trained fighters who take down this type of threat. Not every employee is willing to lend a hand; this future farm of not-quite-our-Earth is hiding some shady secrets. Players must ultimately decide the scummed's fate, deserving or not.</p>
   </div>
 
   <div class="mt-5">
-    <h2>How to Create a Sci-Fi and Horror Setting</h2>
-    <p>Want to know the behind the scenes details on how sci-fi and horror game setting was created?</p>
-    <div class="article-grid row mt-4">
-      {{ range first 4 (index .Site.Taxonomies.series "creating-the-setting").Pages.Reverse }}
-        {{ partial "article-grid-item.html" . }}
-      {{ end }}
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Hand-Drawn Point and Click Adventure</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Colorful, hand-drawn, 2D backgrounds and objects</li>
+          <li class="list-group-item">Never use the wrong verb on the right object: there are no verbs</li>
+          <li class="list-group-item">Solve puzzles with items from your inventory</li>
+          <li class="list-group-item">Take care of a virtual pet for added benefits</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h3>Challenging, Grind-Free JRPG Battles</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Fast-paced, deadly battles with no healing abilities</li>
+          <li class="list-group-item">No grind, no experience, no levels</li>
+          <li class="list-group-item">Swap weapons to change your available skills in the heat of battle</li>
+          <li class="list-group-item">No MP to conserve, fully restore HP after every battle</li>
+          <li class="list-group-item">Hit weak points to break the enemy, but they can do the same to you</li>
+          <li class="list-group-item">Status effects work on all enemies. No immune bosses</li>
+        </ul>
+      </div>
     </div>
-    <p class="text-center mt-2">
-      <a href="/blog/creating-the-setting/" class="btn btn-primary">Read how to develop an RPG setting</a>
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Well-Paced Plot, Great for Speedruns</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Finish in about 4 hours</li>
+          <li class="list-group-item">No filler</li>
+          <li class="list-group-item">Many systems are optional. Focus on how you want to play</li>
+          <li class="list-group-item">Speed through for added dificulty or take your time for an easier experience</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {{ $updates := ($.Site.GetPage "section" "status-update").Pages }}
+  <div class="mt-5">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Follow Along With the Game's Development</h2>
+        <p class="card-text">One Shot RPG is in active development. You can check progress made on the game by reading our status updates.
+        <br>Last update posted on {{ range first 1 $updates }}{{ .Date.Format "January 2, 2006" }}{{ end }}.</p>
+        <a href="/status-update/" class="btn btn-primary">Read Status Updates</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <h2>Read the Blog for Game Development Insights</h2>
+    <p>The <a href="/blog/">blog</a> features series on worldbuilding, character development, narrative design, and more. If you've ever wondered what goes into making a game, give the blog a read.</p>
+
+    <nav class="list-group list-group-flush">
+      <div class="list-group-item d-md-flex justify-content-between align-items-center">
+        <h3 class="h5">How to Create A Sci-Fi and Horror Setting</h3> <a  href="/blog/creating-the-setting/"class="btn btn-secondary">Read Series</a>
+      </div>
+      <div class="list-group-item d-md-flex justify-content-between align-items-center">
+        <h3 class="h5">How to Create Premade RPG Characters</h3> <a href="/blog/creating-the-characters/" class="btn btn-secondary">Read Series</a>
+      </div>
+      <div class="list-group-item d-md-flex justify-content-between align-items-center">
+        <h3 class="h5">How to Create an RPG One Shot Adventure</h3> <a href="/blog/creating-an-adventure/" class="btn btn-secondary">Read Series</a>
+      </div>
+    </nav>
+
+    <p class="text-center mt-4">
+      <a href="/blog/" class="btn btn-primary">Read the Game Development Blog</a>
     </p>
   </div>
 {{ end }}
