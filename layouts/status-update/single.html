@@ -16,10 +16,10 @@
 
   <nav class="mt-4 d-flex justify-content-around pagination-container">
     {{ if .PrevInSection }}
-      <a href="{{ .PrevInSection.RelPermalink }}" class="btn btn-primary pagination-link">&leftarrow; Older Update</a>
+      <a href="{{ .PrevInSection.RelPermalink }}" class="btn btn-primary pagination-link">&leftarrow; Previous Update</a>
     {{ end }}
     {{ if .NextInSection }}
-      <a href="{{ .NextInSection.RelPermalink }}" class="btn btn-primary pagination-link">Newer Update &rightarrow;</a>
+      <a href="{{ .NextInSection.RelPermalink }}" class="btn btn-primary pagination-link">Next Update &rightarrow;</a>
     {{ end }}
   </nav>
 {{ end }}
